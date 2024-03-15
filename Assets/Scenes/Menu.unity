@@ -240,7 +240,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1167792794}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_TargetAssemblyTypeName: menu2, Assembly-CSharp
         m_MethodName: Settings
         m_Mode: 1
         m_Arguments:
@@ -719,7 +719,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1167792794}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_TargetAssemblyTypeName: menu2, Assembly-CSharp
         m_MethodName: SettingsBacktoMenu
         m_Mode: 1
         m_Arguments:
@@ -1010,7 +1010,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1167792794}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_TargetAssemblyTypeName: menu2, Assembly-CSharp
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -1531,10 +1531,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1167792792}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2497a0d90699078468a3efef1afedbb5, type: 3}
+  m_Script: {fileID: 11500000, guid: dc9d16d6bfe492d4a8e71e9e7ec09e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameScene: SampleScene
+  SampleScene: SampleScene
   uiSettings: {fileID: 113840171}
   uiCredtis: {fileID: 190386220}
 --- !u!1 &1214790970
@@ -1627,7 +1627,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1406516635}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DontDestroy, Assembly-CSharp
         m_MethodName: SetSFXVolume
         m_Mode: 4
@@ -1808,7 +1808,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1406516635}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: DontDestroy, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 4
@@ -1908,9 +1908,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1406516632}
-  - component: {fileID: 1406516633}
   - component: {fileID: 1406516635}
   - component: {fileID: 1406516634}
+  - component: {fileID: 1406516633}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Sound
@@ -1927,7 +1927,7 @@ Transform:
   m_GameObject: {fileID: 1406516631}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 572.7315, y: 286.7758, z: 2.7919483}
+  m_LocalPosition: {x: 455, y: 286.7758, z: 2.7919483}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1944,14 +1944,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1406516631}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93a41120a731b454293a0327ceaba0cb, type: 3}
+  m_Script: {fileID: 11500000, guid: 69212df0ff770b442b637ec947ce6e7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSounds: []
-  sfxSounds: []
-  musicSource: {fileID: 402141499}
-  sfxSource: {fileID: 1108776341}
-  isMenu: 0
+  _sfxSlider: {fileID: 1214790972}
+  _musicSlider: {fileID: 1250698126}
 --- !u!114 &1406516634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1961,7 +1958,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1406516631}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7656b09d05f35e4e9779e22ec6b00a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a792fcecc739c640a101ecd2c37386a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _musicSlider: {fileID: 1250698126}
@@ -1975,11 +1972,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1406516631}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbfb0ab316de77241ac97b0b4cb4c715, type: 3}
+  m_Script: {fileID: 11500000, guid: 875cbc6b9eaa4f04aaefdcd481567db6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sfxSlider: {fileID: 1214790972}
-  _musicSlider: {fileID: 1250698126}
+  musicSounds: []
+  sfxSounds: []
+  musicSource: {fileID: 402141499}
+  sfxSource: {fileID: 1108776341}
+  isMenu: 0
 --- !u!1 &1433858186
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,7 +2139,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1167792794}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_TargetAssemblyTypeName: menu2, Assembly-CSharp
         m_MethodName: Credtis
         m_Mode: 1
         m_Arguments:
@@ -2272,7 +2272,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1167792794}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_TargetAssemblyTypeName: menu2, Assembly-CSharp
         m_MethodName: cREDITSBacktoMenu
         m_Mode: 1
         m_Arguments:
@@ -2516,7 +2516,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1167792794}
-        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_TargetAssemblyTypeName: menu2, Assembly-CSharp
         m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
