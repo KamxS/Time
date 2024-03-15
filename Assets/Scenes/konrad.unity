@@ -2609,6 +2609,83 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &946744924
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 151075755008017654, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 7890797455759768182, guid: e538f2c9b08946b4c887028c711b3135, type: 3}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.375535
+      objectReference: {fileID: 0}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.000743
+      objectReference: {fileID: 0}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 340860109485727251, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682958424666659579, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924052137635394326, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_Name
+      value: Enemy#2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924052137635394326, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
 --- !u!1 &950409245
 GameObject:
   m_ObjectHideFlags: 0
@@ -4245,7 +4322,7 @@ GameObject:
   - component: {fileID: 2108070144}
   m_Layer: 0
   m_Name: WaveManager
-  m_TagString: Untagged
+  m_TagString: Spawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4269,8 +4346,11 @@ MonoBehaviour:
   - {fileID: 1267656174}
   - {fileID: 1378806178}
   - {fileID: 1104505004}
-  NewUpgradeUi: {fileID: 0}
-  upgradelist: []
+  NewUpgradeUi: {fileID: 598066647}
+  upgradelist:
+  - {fileID: 1895953361767544665, guid: 297b59bffec6ebf489ff148772fb7af7, type: 3}
+  - {fileID: 993964201488085005, guid: 2d4c575d8dae34b4f85673f3bfa1803b, type: 3}
+  - {fileID: 8873602703789190635, guid: 090c27d402a7d24409cceac94b12b77f, type: 3}
   canSpawnNextWave: 0
   ChooseUpgradee: 0
   waveNumber: 0
@@ -4501,3 +4581,4 @@ SceneRoots:
   - {fileID: 442976701}
   - {fileID: 1984867524}
   - {fileID: 2108070145}
+  - {fileID: 946744924}
