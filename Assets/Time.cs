@@ -9,9 +9,14 @@ public sealed class Time : MonoBehaviour
     public Image uiFill;
     public float time = 1f;
     public float loseTimeFloat = 1f;
+    GameObject player;
 
     public static bool slowTime;
 
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
 
     private void Update()
     {
@@ -21,15 +26,20 @@ public sealed class Time : MonoBehaviour
             time = 1f;
         }
 
-        if (time < 0f)
+        if (time <= 0f)
         {
             time = 0f;
+            player.GetComponent<Player>().Die();
         }
 
 
         if (Input.GetMouseButtonDown(1))
         {
-            slowTime = !slowTime;
+            slowTime = true;
+        }
+        if (Input.GetMouseButtonUp(1))
+        {
+            slowTime = false;
         }
 
         if(slowTime)

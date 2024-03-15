@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerSlow : MonoBehaviour
 {
-    public float startSpeed;
+    float startSpeed;
     public bool isSlowed;
     Movement movement;
 
@@ -17,16 +17,12 @@ public class PlayerSlow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.slowTime)
+        if (Time.slowTime && !isSlowed)
         {
-            if(!isSlowed)
-            {
-                movement.speed/= 2f;
-                isSlowed = true;
-            }
-
+            movement.speed/= 2f;
+            isSlowed = true;
         }
-        else if(!Time.slowTime)
+        else if(!Time.slowTime && isSlowed)
         {
             movement.speed = startSpeed;
             isSlowed = false;

@@ -24,7 +24,6 @@ public class EnemyMovementTime4 : MonoBehaviour
             {
                 aiPath.maxSpeed /= 2f;
                 isSlowed = true;
-                Debug.Log("Slow");
             }
 
         }
@@ -32,7 +31,6 @@ public class EnemyMovementTime4 : MonoBehaviour
         {
             aiPath.maxSpeed = starSpeed;
             isSlowed = false;
-            Debug.Log("NoSlow");
         }
 
     }

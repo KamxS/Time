@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2449378073202091471}
   - component: {fileID: 8818042041934925773}
   - component: {fileID: 3300370156204237888}
+  - component: {fileID: -5203963225624382810}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -131,7 +132,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpForce: 10
 --- !u!114 &2449378073202091471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,8 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b644efcf6e327a046a89dc6402731ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  maxHealth: 100
   enemiesToAttack: []
 --- !u!60 &8818042041934925773
 PolygonCollider2D:
@@ -243,3 +241,17 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-5203963225624382810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863886960069672778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eea7c38494f5cb4f8eb00a8d7fdd30e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startSpeed: 0
+  isSlowed: 0
