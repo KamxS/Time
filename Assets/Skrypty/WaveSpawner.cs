@@ -51,7 +51,6 @@ public class WaveSpawner : MonoBehaviour
         {
             int enemyInd = Random.Range(0, enemyPrefabs.Count);
             GameObject enemy = Instantiate(enemyPrefabs[enemyInd], t.position, Quaternion.identity);
-            enemy.GetComponent<Enemy>().Setup();
             livingEnemies.Add(enemy);
 
         }
