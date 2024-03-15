@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public sealed class Player : MonoBehaviour
 {
@@ -39,6 +40,7 @@ public sealed class Player : MonoBehaviour
     public void Die()
     {
         Destroy(gameObject);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
