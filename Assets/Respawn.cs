@@ -25,6 +25,7 @@ public class Respawn : MonoBehaviour
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
                 Player.playerDie = false;
+                TimeScript.slowTime = false;
             }
         }
     }
