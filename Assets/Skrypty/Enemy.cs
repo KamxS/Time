@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public sealed class Enemy : MonoBehaviour
 {
     GameObject Player;
 
@@ -23,5 +23,10 @@ public class Enemy : MonoBehaviour
     private void FixedUpdate()
     {
         //Vector2 playerDistance = Vector2.Distance(Player.transform.position, transform.position;
+    }
+
+    public void Damage()
+    {
+        Destroy(gameObject);
     }
 }
