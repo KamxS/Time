@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] int health;
-    [SerializeField] int maxHealth;
     public List<GameObject> enemiesToAttack;
     void Start()
     {
@@ -23,14 +21,17 @@ public class Player : MonoBehaviour
     {
         foreach(GameObject enemy in enemiesToAttack)
         {
-            //Physics2D.Raycast(transform.position, transform.position - enemy.transform);
-            //Debug.DrawLine(transform.position, new Vector2(transform.position.x, transform.position.y) - enemy.transform);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, enemy.transform.position - transform.position, 5,12);
+            if(hit)
+            {
+                Debug.Log(hit.transform.name);
+            }
+            Debug.DrawLine(transform.position, enemy.transform.position);
         }
     }
 
-    public void TakeDamage(int damage)
+    public void Die()
     {
-        health -= damage;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
