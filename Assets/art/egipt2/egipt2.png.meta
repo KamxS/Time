@@ -1,0 +1,5957 @@
+fileFormatVersion: 2
+guid: b2959d59aa2417848845587a0514e411
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1300548542872884908
+    second: egipt2_0
+  - first:
+      213: -4474328312009133832
+    second: egipt2_1
+  - first:
+      213: 2401101476746625790
+    second: egipt2_2
+  - first:
+      213: -9091415276088211243
+    second: egipt2_3
+  - first:
+      213: 356297487280744074
+    second: egipt2_4
+  - first:
+      213: -5857241100317633693
+    second: egipt2_5
+  - first:
+      213: 2068524394422106508
+    second: egipt2_6
+  - first:
+      213: -8235807574605807704
+    second: egipt2_7
+  - first:
+      213: 7919729611277450527
+    second: egipt2_8
+  - first:
+      213: -6057446057306751790
+    second: egipt2_9
+  - first:
+      213: 611649493875546440
+    second: egipt2_10
+  - first:
+      213: -8231244115857920342
+    second: egipt2_11
+  - first:
+      213: 811868794750919091
+    second: egipt2_12
+  - first:
+      213: 7954927473183335167
+    second: egipt2_13
+  - first:
+      213: -3438109612343525650
+    second: egipt2_14
+  - first:
+      213: -5390994833669975611
+    second: egipt2_15
+  - first:
+      213: -1091756523821833009
+    second: egipt2_16
+  - first:
+      213: -5750938516775259109
+    second: egipt2_17
+  - first:
+      213: -8335229043087994904
+    second: egipt2_18
+  - first:
+      213: 1753471309489846361
+    second: egipt2_19
+  - first:
+      213: -8924334151991229237
+    second: egipt2_20
+  - first:
+      213: 7295668317840466871
+    second: egipt2_21
+  - first:
+      213: 2006929917178661654
+    second: egipt2_22
+  - first:
+      213: 7812609342979642983
+    second: egipt2_23
+  - first:
+      213: 6983802606110210826
+    second: egipt2_24
+  - first:
+      213: 1534599962832060728
+    second: egipt2_25
+  - first:
+      213: -96667093327588119
+    second: egipt2_26
+  - first:
+      213: 3111018867814913834
+    second: egipt2_27
+  - first:
+      213: -7722381240377033176
+    second: egipt2_28
+  - first:
+      213: 207097372386110243
+    second: egipt2_29
+  - first:
+      213: 1276356062503354053
+    second: egipt2_30
+  - first:
+      213: 7399438892526910662
+    second: egipt2_31
+  - first:
+      213: -9055860178677112005
+    second: egipt2_32
+  - first:
+      213: 4607869578511967500
+    second: egipt2_33
+  - first:
+      213: -3295974649121402075
+    second: egipt2_34
+  - first:
+      213: -1295143361021416862
+    second: egipt2_35
+  - first:
+      213: -3353203618740384884
+    second: egipt2_36
+  - first:
+      213: -1325064350482503332
+    second: egipt2_37
+  - first:
+      213: -8190479152348405833
+    second: egipt2_38
+  - first:
+      213: 7833766513842235482
+    second: egipt2_39
+  - first:
+      213: -8444251797589817630
+    second: egipt2_40
+  - first:
+      213: 7282537759949913169
+    second: egipt2_41
+  - first:
+      213: 2889014422217614746
+    second: egipt2_42
+  - first:
+      213: 4490774349266547186
+    second: egipt2_43
+  - first:
+      213: 322965534743295183
+    second: egipt2_44
+  - first:
+      213: 266073034736868405
+    second: egipt2_45
+  - first:
+      213: -3259455948112178519
+    second: egipt2_46
+  - first:
+      213: 3777389901621091520
+    second: egipt2_47
+  - first:
+      213: -6223127447879108388
+    second: egipt2_48
+  - first:
+      213: -3791761291468735906
+    second: egipt2_49
+  - first:
+      213: 2521707226119815674
+    second: egipt2_50
+  - first:
+      213: -4576763012442831707
+    second: egipt2_51
+  - first:
+      213: 8794120686116564499
+    second: egipt2_52
+  - first:
+      213: 5593830902594930120
+    second: egipt2_53
+  - first:
+      213: 8816897973282918668
+    second: egipt2_54
+  - first:
+      213: -7520674152384600463
+    second: egipt2_55
+  - first:
+      213: -8201722552394647800
+    second: egipt2_56
+  - first:
+      213: 4124107224707059897
+    second: egipt2_57
+  - first:
+      213: 3940355316813182897
+    second: egipt2_58
+  - first:
+      213: 2649929217116373622
+    second: egipt2_59
+  - first:
+      213: -300647855960417883
+    second: egipt2_60
+  - first:
+      213: 6472499355294435124
+    second: egipt2_61
+  - first:
+      213: 4826593600643949746
+    second: egipt2_62
+  - first:
+      213: -1379432956809916831
+    second: egipt2_63
+  - first:
+      213: 3595445564664438897
+    second: egipt2_64
+  - first:
+      213: -5805289284777384084
+    second: egipt2_65
+  - first:
+      213: -7844946911119568025
+    second: egipt2_66
+  - first:
+      213: -7852323786178477166
+    second: egipt2_67
+  - first:
+      213: -362128201822551421
+    second: egipt2_68
+  - first:
+      213: 2703448264968522587
+    second: egipt2_69
+  - first:
+      213: 5941346963098001409
+    second: egipt2_70
+  - first:
+      213: -1674421095812952186
+    second: egipt2_71
+  - first:
+      213: -4088440463900986095
+    second: egipt2_72
+  - first:
+      213: -3867833082927699564
+    second: egipt2_73
+  - first:
+      213: 2125692748907931116
+    second: egipt2_74
+  - first:
+      213: -7728302001879771104
+    second: egipt2_75
+  - first:
+      213: -5417690091517144727
+    second: egipt2_76
+  - first:
+      213: 640173844715263609
+    second: egipt2_77
+  - first:
+      213: -2311046122666328724
+    second: egipt2_78
+  - first:
+      213: 4923412734164099217
+    second: egipt2_79
+  - first:
+      213: 8258237215724416075
+    second: egipt2_80
+  - first:
+      213: -826960230073721622
+    second: egipt2_81
+  - first:
+      213: 6671998335207651433
+    second: egipt2_82
+  - first:
+      213: 160395817143309506
+    second: egipt2_83
+  - first:
+      213: -8180282654554775484
+    second: egipt2_84
+  - first:
+      213: 7357621399695283152
+    second: egipt2_85
+  - first:
+      213: -8759358560066219166
+    second: egipt2_86
+  - first:
+      213: 2665931433950358726
+    second: egipt2_87
+  - first:
+      213: -9142695474251010175
+    second: egipt2_88
+  - first:
+      213: 3743366128259687332
+    second: egipt2_89
+  - first:
+      213: 2437229361089370199
+    second: egipt2_90
+  - first:
+      213: -6403361456871639902
+    second: egipt2_91
+  - first:
+      213: 3204040414636335544
+    second: egipt2_92
+  - first:
+      213: -4020678183251417502
+    second: egipt2_93
+  - first:
+      213: 5858239732662689069
+    second: egipt2_94
+  - first:
+      213: -2673683744160187573
+    second: egipt2_95
+  - first:
+      213: 8294267901210811568
+    second: egipt2_96
+  - first:
+      213: -6976485738710265244
+    second: egipt2_97
+  - first:
+      213: -8692651933692061370
+    second: egipt2_98
+  - first:
+      213: 7873770847370401834
+    second: egipt2_99
+  - first:
+      213: -6711422664777194070
+    second: egipt2_100
+  - first:
+      213: -7966992319552317565
+    second: egipt2_101
+  - first:
+      213: 4422369729490362219
+    second: egipt2_102
+  - first:
+      213: -3228585751361304825
+    second: egipt2_103
+  - first:
+      213: 2425216184675398513
+    second: egipt2_104
+  - first:
+      213: -7728477346921362068
+    second: egipt2_105
+  - first:
+      213: 147472650096349049
+    second: egipt2_106
+  - first:
+      213: -8503904123453307258
+    second: egipt2_107
+  - first:
+      213: 4943990129476256954
+    second: egipt2_108
+  - first:
+      213: -7327394022868876424
+    second: egipt2_109
+  - first:
+      213: 322624794933196316
+    second: egipt2_110
+  - first:
+      213: -3330573276152329168
+    second: egipt2_111
+  - first:
+      213: -6269499610670711390
+    second: egipt2_112
+  - first:
+      213: -352148701713570484
+    second: egipt2_113
+  - first:
+      213: 3814566513977848559
+    second: egipt2_114
+  - first:
+      213: -4353474170915780186
+    second: egipt2_115
+  - first:
+      213: -4706482445762381786
+    second: egipt2_116
+  - first:
+      213: -2907505687824613044
+    second: egipt2_117
+  - first:
+      213: 8820382552181891050
+    second: egipt2_118
+  - first:
+      213: 6881826682972244243
+    second: egipt2_119
+  - first:
+      213: -3566140793249980737
+    second: egipt2_120
+  - first:
+      213: -1945354904515251799
+    second: egipt2_121
+  - first:
+      213: -2151475767752351533
+    second: egipt2_122
+  - first:
+      213: -1712590166567504491
+    second: egipt2_123
+  - first:
+      213: 7386121958989089280
+    second: egipt2_124
+  - first:
+      213: -1078910661577520080
+    second: egipt2_125
+  - first:
+      213: -6984336996619202186
+    second: egipt2_126
+  - first:
+      213: 4904158293047130401
+    second: egipt2_127
+  - first:
+      213: -6730885532476879401
+    second: egipt2_128
+  - first:
+      213: -5531025264188082119
+    second: egipt2_129
+  - first:
+      213: -8196431147337697002
+    second: egipt2_130
+  - first:
+      213: 6462760704473140445
+    second: egipt2_131
+  - first:
+      213: 6465607797482136063
+    second: egipt2_132
+  - first:
+      213: 3831489826332541858
+    second: egipt2_133
+  - first:
+      213: -7319917628900906827
+    second: egipt2_134
+  - first:
+      213: 1958873342386940986
+    second: egipt2_135
+  - first:
+      213: -5871860988077285552
+    second: egipt2_136
+  - first:
+      213: -6109075400584646663
+    second: egipt2_137
+  - first:
+      213: -6085119374971724682
+    second: egipt2_138
+  - first:
+      213: -2563362421727020416
+    second: egipt2_139
+  - first:
+      213: -8367985287837579348
+    second: egipt2_140
+  - first:
+      213: 7508639732373919104
+    second: egipt2_141
+  - first:
+      213: -3779467754720499840
+    second: egipt2_142
+  - first:
+      213: -5754812278844434222
+    second: egipt2_143
+  - first:
+      213: 3874284569829879913
+    second: egipt2_144
+  - first:
+      213: -5520279552338086573
+    second: egipt2_145
+  - first:
+      213: 8419508083644619226
+    second: egipt2_146
+  - first:
+      213: 5133545289963408721
+    second: egipt2_147
+  - first:
+      213: 8708515865881168579
+    second: egipt2_148
+  - first:
+      213: -2021944255744122349
+    second: egipt2_149
+  - first:
+      213: -60858134718464047
+    second: egipt2_150
+  - first:
+      213: 4205269424932457132
+    second: egipt2_151
+  - first:
+      213: 3140366235321772335
+    second: egipt2_152
+  - first:
+      213: -5720202717515838643
+    second: egipt2_153
+  - first:
+      213: -4779473563371083026
+    second: egipt2_154
+  - first:
+      213: 8214252259649603654
+    second: egipt2_155
+  - first:
+      213: 9215023297828917539
+    second: egipt2_156
+  - first:
+      213: 3347695192494673933
+    second: egipt2_157
+  - first:
+      213: -8703515838795215949
+    second: egipt2_158
+  - first:
+      213: -1139644516244791116
+    second: egipt2_159
+  - first:
+      213: -3607808801087904199
+    second: egipt2_160
+  - first:
+      213: 2248153955549933076
+    second: egipt2_161
+  - first:
+      213: 6741881653430055175
+    second: egipt2_162
+  - first:
+      213: -2771399617514876286
+    second: egipt2_163
+  - first:
+      213: 5283890612891184516
+    second: egipt2_164
+  - first:
+      213: 1800223190316207895
+    second: egipt2_165
+  - first:
+      213: -8887234236749421390
+    second: egipt2_166
+  - first:
+      213: 4561567943774338481
+    second: egipt2_167
+  - first:
+      213: 2044622400338276202
+    second: egipt2_168
+  - first:
+      213: -8623764260182167901
+    second: egipt2_169
+  - first:
+      213: 56744960803092116
+    second: egipt2_170
+  - first:
+      213: -4221285655657039649
+    second: egipt2_171
+  - first:
+      213: -5118785463853015255
+    second: egipt2_172
+  - first:
+      213: 1476317088769669990
+    second: egipt2_173
+  - first:
+      213: 4922471284854084483
+    second: egipt2_174
+  - first:
+      213: -8462712477374514748
+    second: egipt2_175
+  - first:
+      213: 8224476310847779889
+    second: egipt2_176
+  - first:
+      213: -4715838268482058568
+    second: egipt2_177
+  - first:
+      213: 3512629820117136173
+    second: egipt2_178
+  - first:
+      213: -179647081410536580
+    second: egipt2_179
+  - first:
+      213: -6653029005743705379
+    second: egipt2_180
+  - first:
+      213: 414212794742113629
+    second: egipt2_181
+  - first:
+      213: 1583674278148266647
+    second: egipt2_182
+  - first:
+      213: -5803082967547093802
+    second: egipt2_183
+  - first:
+      213: -7284879312698764375
+    second: egipt2_184
+  - first:
+      213: -3609390406162650837
+    second: egipt2_185
+  - first:
+      213: -9208523421120072873
+    second: egipt2_186
+  - first:
+      213: 4088605156385086311
+    second: egipt2_187
+  - first:
+      213: -8691446489605316228
+    second: egipt2_188
+  - first:
+      213: -8548014749604309202
+    second: egipt2_189
+  - first:
+      213: 6858767087392236420
+    second: egipt2_190
+  - first:
+      213: 3712251887408328856
+    second: egipt2_191
+  - first:
+      213: 7518701291643087222
+    second: egipt2_192
+  - first:
+      213: -4158186477889800717
+    second: egipt2_193
+  - first:
+      213: 3746967282892492685
+    second: egipt2_194
+  - first:
+      213: 8004305478646609667
+    second: egipt2_195
+  - first:
+      213: -2136835335800156026
+    second: egipt2_196
+  - first:
+      213: -791915372160248449
+    second: egipt2_197
+  - first:
+      213: -50875350971128413
+    second: egipt2_198
+  - first:
+      213: -960290190648645605
+    second: egipt2_199
+  - first:
+      213: 4571790956432370356
+    second: egipt2_200
+  - first:
+      213: 4720984194515730371
+    second: egipt2_201
+  - first:
+      213: 339463573942818200
+    second: egipt2_202
+  - first:
+      213: -5970703806621616514
+    second: egipt2_203
+  - first:
+      213: 6030785546747332703
+    second: egipt2_204
+  - first:
+      213: 993627506863376518
+    second: egipt2_205
+  - first:
+      213: -6073128693019246462
+    second: egipt2_206
+  - first:
+      213: -1750888539285341104
+    second: egipt2_207
+  - first:
+      213: 5293507007269191392
+    second: egipt2_208
+  - first:
+      213: -2100559395707411832
+    second: egipt2_209
+  - first:
+      213: 6574664458265214603
+    second: egipt2_210
+  - first:
+      213: 3147309552574960469
+    second: egipt2_211
+  - first:
+      213: -5210314949652108372
+    second: egipt2_212
+  - first:
+      213: 4153872907024012078
+    second: egipt2_213
+  - first:
+      213: -7196195417100783502
+    second: egipt2_214
+  - first:
+      213: -701237487855424373
+    second: egipt2_215
+  - first:
+      213: 7212215726937474822
+    second: egipt2_216
+  - first:
+      213: 6944603431065293470
+    second: egipt2_217
+  - first:
+      213: -1216504880537402772
+    second: egipt2_218
+  - first:
+      213: -2377316017167089854
+    second: egipt2_219
+  - first:
+      213: -2925621618003453574
+    second: egipt2_220
+  - first:
+      213: 390258065144920993
+    second: egipt2_221
+  - first:
+      213: -5053277439389969740
+    second: egipt2_222
+  - first:
+      213: -4835150582640375892
+    second: egipt2_223
+  - first:
+      213: -7761224790124281582
+    second: egipt2_224
+  - first:
+      213: -1851375677241778350
+    second: egipt2_225
+  - first:
+      213: 1150656774326022262
+    second: egipt2_226
+  - first:
+      213: 98188480249086475
+    second: egipt2_227
+  - first:
+      213: -8414259956576955373
+    second: egipt2_228
+  - first:
+      213: -3531778449390784616
+    second: egipt2_229
+  - first:
+      213: 7335274313906983761
+    second: egipt2_230
+  - first:
+      213: 4297455576248822288
+    second: egipt2_231
+  - first:
+      213: 6010424566739179647
+    second: egipt2_232
+  - first:
+      213: 1972993346075663218
+    second: egipt2_233
+  - first:
+      213: -2199845706926221447
+    second: egipt2_234
+  - first:
+      213: -7174669018458160203
+    second: egipt2_235
+  - first:
+      213: 8889511974998340640
+    second: egipt2_236
+  - first:
+      213: 2780647056964747697
+    second: egipt2_237
+  - first:
+      213: -3451648601218878693
+    second: egipt2_238
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: egipt2_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca61717520a7c0210800000000000000
+      internalID: 1300548542872884908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0f8323b1ef7e1c0800000000000000
+      internalID: -4474328312009133832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2062f421d625120800000000000000
+      internalID: 2401101476746625790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8c33b89fdc4d180800000000000000
+      internalID: -9091415276088211243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86abbb4da2d1f400800000000000000
+      internalID: 356297487280744074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363dfb39046e6bea0800000000000000
+      internalID: -5857241100317633693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8972ca2affd4bc10800000000000000
+      internalID: 2068524394422106508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af362565a884bd80800000000000000
+      internalID: -8235807574605807704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1db555fe1888ed60800000000000000
+      internalID: 7919729611277450527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcf32497e0afeba0800000000000000
+      internalID: -6057446057306751790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849df7959f30d7800800000000000000
+      internalID: 611649493875546440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaea3ce661fb4cd80800000000000000
+      internalID: -8231244115857920342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b16a5b0e56544b00800000000000000
+      internalID: 811868794750919091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_13
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2a61dc364956e60800000000000000
+      internalID: 7954927473183335167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_14
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee786106816940d0800000000000000
+      internalID: -3438109612343525650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 968
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c19221f2c65f25b0800000000000000
+      internalID: -5390994833669975611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc46268d93d49d0f0800000000000000
+      internalID: -1091756523821833009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14bf7683ef8030b0800000000000000
+      internalID: -5750938516775259109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef8835e851535c80800000000000000
+      internalID: -8335229043087994904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9583bfd9dd4955810800000000000000
+      internalID: 1753471309489846361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc40da53f55662480800000000000000
+      internalID: -8924334151991229237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3e3f35eab6f3560800000000000000
+      internalID: 7295668317840466871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bc982602c0adb10800000000000000
+      internalID: 2006929917178661654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7661331fdc6fb6c60800000000000000
+      internalID: 7812609342979642983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b75aee7737be060800000000000000
+      internalID: 6983802606110210826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831cee8198efb4510800000000000000
+      internalID: 1534599962832060728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e45db07ac198aef0800000000000000
+      internalID: -96667093327588119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_27
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2755a96d2f8c2b20800000000000000
+      internalID: 3111018867814913834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ebf234d2794d490800000000000000
+      internalID: -7722381240377033176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_29
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32badf286f1cfd200800000000000000
+      internalID: 207097372386110243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_30
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cebd60931786b110800000000000000
+      internalID: 1276356062503354053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccb646087610b660800000000000000
+      internalID: 7399438892526910662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_32
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b336852c52f135280800000000000000
+      internalID: -9055860178677112005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_33
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05e886d7f072ff30800000000000000
+      internalID: 4607869578511967500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5231d6af4885242d0800000000000000
+      internalID: -3295974649121402075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_35
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26aec11a9f9b60ee0800000000000000
+      internalID: -1295143361021416862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_36
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bcc6523170771d0800000000000000
+      internalID: -3353203618740384884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_37
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59e4f46efc6c9de0800000000000000
+      internalID: -1325064350482503332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_38
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 936
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfd7002b92955e80800000000000000
+      internalID: -8190479152348405833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58aae6a32127bc60800000000000000
+      internalID: 7833766513842235482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e684bacabdffca80800000000000000
+      internalID: -8444251797589817630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cfe251285c01560800000000000000
+      internalID: 7282537759949913169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95e2437f47d71820800000000000000
+      internalID: 2889014422217614746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1f77e3a7f625e30800000000000000
+      internalID: 4490774349266547186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_44
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4711551776b7400800000000000000
+      internalID: 322965534743295183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_45
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c1dcfe30841b300800000000000000
+      internalID: 266073034736868405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_46
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a25db3a51614c2d0800000000000000
+      internalID: -3259455948112178519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_47
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccd5402a1cfb6430800000000000000
+      internalID: 3777389901621091520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_48
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8be25ce8203a9a0800000000000000
+      internalID: -6223127447879108388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_49
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5afdece135f06bc0800000000000000
+      internalID: -3791761291468735906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_50
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 904
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af148609c57eef220800000000000000
+      internalID: 2521707226119815674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 872
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4c236f9421c70c0800000000000000
+      internalID: -4576763012442831707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_52
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 872
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e64e7bb2efa0a70800000000000000
+      internalID: 8794120686116564499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 872
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c506ca819741ad40800000000000000
+      internalID: 5593830902594930120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_54
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 872
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01d3662ef9eb5a70800000000000000
+      internalID: 8816897973282918668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 872
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17667a364b231a790800000000000000
+      internalID: -7520674152384600463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_56
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 872
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807f43e0bc0ad2e80800000000000000
+      internalID: -8201722552394647800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_57
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 872
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b05940aba5cb3930800000000000000
+      internalID: 4124107224707059897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_58
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 872
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7b873a844fea630800000000000000
+      internalID: 3940355316813182897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_59
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 872
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6728622459076c420800000000000000
+      internalID: 2649929217116373622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_60
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 872
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a91ffe2e52e3dbf0800000000000000
+      internalID: -300647855960417883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_61
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 872
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4370541fedfe2d950800000000000000
+      internalID: 6472499355294435124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 840
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b46e81be418bf240800000000000000
+      internalID: 4826593600643949746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_63
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 840
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ec0e9c8054bdce0800000000000000
+      internalID: -1379432956809916831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_64
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 840
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170e31b01b695e130800000000000000
+      internalID: 3595445564664438897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_65
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 840
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67667a37287f6fa0800000000000000
+      internalID: -5805289284777384084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7639be04956212390800000000000000
+      internalID: -7844946911119568025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2934b7fae11f60390800000000000000
+      internalID: -7852323786178477166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_68
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382473fa15679faf0800000000000000
+      internalID: -362128201822551421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b481e9fd3948520800000000000000
+      internalID: 2703448264968522587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1006dc69597e37250800000000000000
+      internalID: 5941346963098001409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_71
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f06a382e243c8e0800000000000000
+      internalID: -1674421095812952186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_72
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11539df3f01f247c0800000000000000
+      internalID: -4088440463900986095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_73
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4992791cd42b25ac0800000000000000
+      internalID: -3867833082927699564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_74
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5e740fa4aff7d10800000000000000
+      internalID: 2125692748907931116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_75
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028140d864e8fb490800000000000000
+      internalID: -7728302001879771104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_76
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96197ffd09f70d4b0800000000000000
+      internalID: -5417690091517144727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_77
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976dfb058ba52e800800000000000000
+      internalID: 640173844715263609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_78
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6dfdeebbc38defd0800000000000000
+      internalID: -2311046122666328724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_79
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 808
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1906c7edbc9735440800000000000000
+      internalID: 4923412734164099217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 776
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c2a226ef62b9270800000000000000
+      internalID: 8258237215724416075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 776
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec941b5d0c0684f0800000000000000
+      internalID: -826960230073721622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_82
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 776
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968bc08d223b79c50800000000000000
+      internalID: 6671998335207651433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 776
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c419485527d93200800000000000000
+      internalID: 160395817143309506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_84
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 776
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44029f4444cc97e80800000000000000
+      internalID: -8180282654554775484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_85
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 776
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d356a04ea58b1660800000000000000
+      internalID: 7357621399695283152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_86
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 776
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263d9f67cc1807680800000000000000
+      internalID: -8759358560066219166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cca824b38a4ff420800000000000000
+      internalID: 2665931433950358726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_88
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f62bff7ee9e1180800000000000000
+      internalID: -9142695474251010175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3e52319ab13f330800000000000000
+      internalID: 3743366128259687332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75852efd037c2d120800000000000000
+      internalID: 2437229361089370199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_91
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4fcb27ea0b227a0800000000000000
+      internalID: -6403361456871639902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_92
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1e46808c9077c20800000000000000
+      internalID: 3204040414636335544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_93
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266e22bae7ea338c0800000000000000
+      internalID: -4020678183251417502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_94
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d5072aff5ac4150800000000000000
+      internalID: 5858239732662689069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_95
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b789becca25ead0800000000000000
+      internalID: -2673683744160187573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_96
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc589316b82b1370800000000000000
+      internalID: 8294267901210811568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_97
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46298930f2b8e2f90800000000000000
+      internalID: -6976485738710265244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_98
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6491c283f1f7d5780800000000000000
+      internalID: -8692651933692061370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_99
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28d6506ed0454d60800000000000000
+      internalID: 7873770847370401834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_100
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 744
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5237025ac3cd2a0800000000000000
+      internalID: -6711422664777194070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 712
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38791d042be8f6190800000000000000
+      internalID: -7966992319552317565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_102
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 712
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f96b796d96f5d30800000000000000
+      internalID: 4422369729490362219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_103
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 712
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707c83b6d52c133d0800000000000000
+      internalID: -3228585751361304825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_104
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 712
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173fa17454918a120800000000000000
+      internalID: 2425216184675398513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_105
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 712
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d491adcceeeb490800000000000000
+      internalID: -7728477346921362068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_106
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 712
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f041b089deb0200800000000000000
+      internalID: 147472650096349049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686069d51401cf980800000000000000
+      internalID: -8503904123453307258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4487014d49c9440800000000000000
+      internalID: 4943990129476256954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_109
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873849955fddf4a90800000000000000
+      internalID: -7327394022868876424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16f9b9aa813a7400800000000000000
+      internalID: 322624794933196316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c0880604d67c1d0800000000000000
+      internalID: -3330573276152329168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_112
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adb58242534ef8a0800000000000000
+      internalID: -6269499610670711390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_113
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c456f3e1f9aec1bf0800000000000000
+      internalID: -352148701713570484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_114
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2ffb5b80010f430800000000000000
+      internalID: 3814566513977848559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_115
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a90ab7ae4a5593c0800000000000000
+      internalID: -4353474170915780186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_116
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628b8bec6273faeb0800000000000000
+      internalID: -4706482445762381786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_117
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4149c64bf676a7d0800000000000000
+      internalID: -2907505687824613044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_118
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 680
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefdad5e23b486a70800000000000000
+      internalID: 8820382552181891050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_119
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3198d5c18e8218f50800000000000000
+      internalID: 6881826682972244243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_120
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe1e4fb7d5828ec0800000000000000
+      internalID: -3566140793249980737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_121
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1fd427506b005e0800000000000000
+      internalID: -1945354904515251799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_122
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0a240303c6422e0800000000000000
+      internalID: -2151475767752351533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595bae33158ab38e0800000000000000
+      internalID: -1712590166567504491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_124
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ac141d9c6c08660800000000000000
+      internalID: 7386121958989089280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_125
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c4a483870f601f0800000000000000
+      internalID: -1078910661577520080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_126
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671d4e49186a21f90800000000000000
+      internalID: -6984336996619202186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_127
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1293c53fbf11f0440800000000000000
+      internalID: 4904158293047130401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_128
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd46ec15471792a0800000000000000
+      internalID: -6730885532476879401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_129
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938bb5ca3d9dd33b0800000000000000
+      internalID: -5531025264188082119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_130
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6193dfc4c4d604e80800000000000000
+      internalID: -8196431147337697002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_131
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc897a9e9650b950800000000000000
+      internalID: 6462760704473140445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 648
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff12be919047ab950800000000000000
+      internalID: 6465607797482136063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_133
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3031b62bf2c2530800000000000000
+      internalID: 3831489826332541858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_134
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8ed38f2bd6a6a90800000000000000
+      internalID: -7319917628900906827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ca4f42de05f2b10800000000000000
+      internalID: 1958873342386940986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_136
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fdd23ba85f28ea0800000000000000
+      internalID: -5871860988077285552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_137
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff231a5a44383ba0800000000000000
+      internalID: -6109075400584646663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_138
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c96f63b205d8ba0800000000000000
+      internalID: -6085119374971724682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_139
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a306e657b1d6cd0800000000000000
+      internalID: -2563362421727020416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_140
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca70fb857b1fedb80800000000000000
+      internalID: -8367985287837579348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_141
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085188add0c043860800000000000000
+      internalID: 7508639732373919104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_142
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08767dff912ac8bc0800000000000000
+      internalID: -3779467754720499840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_143
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8db6209bcc220b0800000000000000
+      internalID: -5754812278844434222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_144
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960bc771a4934c530800000000000000
+      internalID: 3874284569829879913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_145
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355390eaef60463b0800000000000000
+      internalID: -5520279552338086573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_146
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 584
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9da2d5ef918d470800000000000000
+      internalID: 8419508083644619226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_147
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d06a61e340e3740800000000000000
+      internalID: 5133545289963408721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca43b25a0ddad870800000000000000
+      internalID: 8708515865881168579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312eab0896c90f3e0800000000000000
+      internalID: -2021944255744122349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_150
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfb96259d9c72ff0800000000000000
+      internalID: -60858134718464047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_151
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa09e1f24e1c5a30800000000000000
+      internalID: 4205269424932457132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_152
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f292cf0e372d49b20800000000000000
+      internalID: 3140366235321772335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b8e337fe1cd90b0800000000000000
+      internalID: -5720202717515838643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_154
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea65e9ed16ebadb0800000000000000
+      internalID: -4779473563371083026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_155
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6484ddfb8e2eef170800000000000000
+      internalID: 8214252259649603654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_156
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3219a08bdd652ef70800000000000000
+      internalID: 9215023297828917539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_157
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d009dec6a07657e20800000000000000
+      internalID: 3347695192494673933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_158
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb00a33576e63780800000000000000
+      internalID: -8703515838795215949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_159
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0e10fb95b2f20f0800000000000000
+      internalID: -1139644516244791116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_160
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936a0a9a20d7eedc0800000000000000
+      internalID: -3607808801087904199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 520
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e61f08c1c033f10800000000000000
+      internalID: 2248153955549933076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 520
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701fb6ec4a9ff8d50800000000000000
+      internalID: 6741881653430055175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_163
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 520
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2825f5b3bb20a89d0800000000000000
+      internalID: -2771399617514876286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_164
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 520
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d66656486245940800000000000000
+      internalID: 5283890612891184516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_165
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 520
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fc73f147dabf810800000000000000
+      internalID: 1800223190316207895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_166
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 520
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b46cda5c833aa480800000000000000
+      internalID: -8887234236749421390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_167
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 488
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd7a7b60e1fd4f30800000000000000
+      internalID: 4561567943774338481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_168
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 488
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f28ff7d35ff5c10800000000000000
+      internalID: 2044622400338276202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_169
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 488
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aee125981c325880800000000000000
+      internalID: -8623764260182167901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_170
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 488
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496367fbd3999c000800000000000000
+      internalID: 56744960803092116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_171
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 488
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd83c1fbf0bfa65c0800000000000000
+      internalID: -4221285655657039649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_172
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 488
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f9b99bdbb66f8b0800000000000000
+      internalID: -5118785463853015255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_173
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b74f3029eec7410800000000000000
+      internalID: 1476317088769669990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_174
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383d9ce9d81205440800000000000000
+      internalID: 4922471284854084483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_175
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c973d5d6d76e8a80800000000000000
+      internalID: -8462712477374514748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_176
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13472bb21a5332270800000000000000
+      internalID: 8224476310847779889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_177
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b60fe4941afd8eb0800000000000000
+      internalID: -4715838268482058568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_178
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23b68fe53e5fb030800000000000000
+      internalID: 3512629820117136173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_179
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bd6976ee3c18df0800000000000000
+      internalID: -179647081410536580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_180
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2b6485e51bba3a0800000000000000
+      internalID: -6653029005743705379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_181
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55860c97549fb500800000000000000
+      internalID: 414212794742113629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_182
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a53f48d575af510800000000000000
+      internalID: 1583674278148266647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_183
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc5c3d79ce477fa0800000000000000
+      internalID: -5803082967547093802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_184
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a39ffeacd8e6ea90800000000000000
+      internalID: -7284879312698764375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_185
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29e8f88c8ed8edc0800000000000000
+      internalID: -3609390406162650837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_186
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753f542ccb0c43080800000000000000
+      internalID: -9208523421120072873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_187
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 392
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bd9253ab4adb830800000000000000
+      internalID: 4088605156385086311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_188
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 392
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7162ca8777c16780800000000000000
+      internalID: -8691446489605316228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_189
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 392
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e271903efd95f5980800000000000000
+      internalID: -8548014749604309202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_190
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 392
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483a721a35c3f2f50800000000000000
+      internalID: 6858767087392236420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_191
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 392
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8903fb95c61948330800000000000000
+      internalID: 3712251887408328856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_192
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 392
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67928ac2dfac75860800000000000000
+      internalID: 7518701291643087222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_193
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5bb8bed672b46c0800000000000000
+      internalID: -4158186477889800717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_194
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f41d934e6eff330800000000000000
+      internalID: 3746967282892492685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_195
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307b1789c61051f60800000000000000
+      internalID: 8004305478646609667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_196
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6801122659f6852e0800000000000000
+      internalID: -2136835335800156026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_197
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75973e2a2d8205f0800000000000000
+      internalID: -791915372160248449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_198
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5ea8943214b4ff0800000000000000
+      internalID: -50875350971128413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_199
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b186811d82d5ca2f0800000000000000
+      internalID: -960290190648645605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_200
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4baae7907a3427f30800000000000000
+      internalID: 4571790956432370356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_201
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cff750bc1e448140800000000000000
+      internalID: 4720984194515730371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_202
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895db0b625406b400800000000000000
+      internalID: 339463573942818200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_203
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76fe33a58cc32da0800000000000000
+      internalID: -5970703806621616514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_204
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f584f669087a1b350800000000000000
+      internalID: 6030785546747332703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_205
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68806a9f3f21acd00800000000000000
+      internalID: 993627506863376518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_206
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 360
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2800b5961a9e7bba0800000000000000
+      internalID: -6073128693019246462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_207
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 328
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c389e662893b7e0800000000000000
+      internalID: -1750888539285341104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_208
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 328
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee3250b390567940800000000000000
+      internalID: 5293507007269191392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_209
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 328
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882204ddb5059d2e0800000000000000
+      internalID: -2100559395707411832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_210
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 328
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8eb840ad76ed3b50800000000000000
+      internalID: 6574664458265214603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_211
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 296
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5539c67ec5d7dab20800000000000000
+      internalID: 3147309552574960469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_212
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 296
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab2412a82e31b7b0800000000000000
+      internalID: -5210314949652108372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_213
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 296
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e231949966585a930800000000000000
+      internalID: 4153872907024012078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_214
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 296
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270f96d256af12c90800000000000000
+      internalID: -7196195417100783502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_215
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 296
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ca0395834b446f0800000000000000
+      internalID: -701237487855424373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_216
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 296
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607089fddffe61460800000000000000
+      internalID: 7212215726937474822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_217
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 296
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e921b96c600306060800000000000000
+      internalID: 6944603431065293470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_218
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 296
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c620a08a14b1e1fe0800000000000000
+      internalID: -1216504880537402772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_219
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fb8ed8da3120fd0800000000000000
+      internalID: -2377316017167089854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_220
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7953b793aa1667d0800000000000000
+      internalID: -2925621618003453574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_221
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abb1bf74a97a6500800000000000000
+      internalID: 390258065144920993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_222
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b25aa931f62fd9b0800000000000000
+      internalID: -5053277439389969740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_223
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7823ea92816ecb0800000000000000
+      internalID: -4835150582640375892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_224
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211cfa29c279a4490800000000000000
+      internalID: -7761224790124281582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_225
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f943c61a79e46e0800000000000000
+      internalID: -1851375677241778350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_226
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67079146d34f7ff00800000000000000
+      internalID: 1150656774326022262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_227
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02484e07e5dc5100800000000000000
+      internalID: 98188480249086475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_228
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314df60762b8a3b80800000000000000
+      internalID: -8414259956576955373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_229
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89faea2663a9cfec0800000000000000
+      internalID: -3531778449390784616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_230
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1531972ef112cc560800000000000000
+      internalID: 7335274313906983761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_231
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a2554e311a3ab30800000000000000
+      internalID: 4297455576248822288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: egipt2_232
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 264
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7815c18c41596350800000000000000
+      internalID: 6010424566739179647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d5cf9e34c6196aa47b3e43919a3b7e14
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      egipt2_0: 1300548542872884908
+      egipt2_1: -4474328312009133832
+      egipt2_10: 611649493875546440
+      egipt2_100: -6711422664777194070
+      egipt2_101: -7966992319552317565
+      egipt2_102: 4422369729490362219
+      egipt2_103: -3228585751361304825
+      egipt2_104: 2425216184675398513
+      egipt2_105: -7728477346921362068
+      egipt2_106: 147472650096349049
+      egipt2_107: -8503904123453307258
+      egipt2_108: 4943990129476256954
+      egipt2_109: -7327394022868876424
+      egipt2_11: -8231244115857920342
+      egipt2_110: 322624794933196316
+      egipt2_111: -3330573276152329168
+      egipt2_112: -6269499610670711390
+      egipt2_113: -352148701713570484
+      egipt2_114: 3814566513977848559
+      egipt2_115: -4353474170915780186
+      egipt2_116: -4706482445762381786
+      egipt2_117: -2907505687824613044
+      egipt2_118: 8820382552181891050
+      egipt2_119: 6881826682972244243
+      egipt2_12: 811868794750919091
+      egipt2_120: -3566140793249980737
+      egipt2_121: -1945354904515251799
+      egipt2_122: -2151475767752351533
+      egipt2_123: -1712590166567504491
+      egipt2_124: 7386121958989089280
+      egipt2_125: -1078910661577520080
+      egipt2_126: -6984336996619202186
+      egipt2_127: 4904158293047130401
+      egipt2_128: -6730885532476879401
+      egipt2_129: -5531025264188082119
+      egipt2_13: 7954927473183335167
+      egipt2_130: -8196431147337697002
+      egipt2_131: 6462760704473140445
+      egipt2_132: 6465607797482136063
+      egipt2_133: 3831489826332541858
+      egipt2_134: -7319917628900906827
+      egipt2_135: 1958873342386940986
+      egipt2_136: -5871860988077285552
+      egipt2_137: -6109075400584646663
+      egipt2_138: -6085119374971724682
+      egipt2_139: -2563362421727020416
+      egipt2_14: -3438109612343525650
+      egipt2_140: -8367985287837579348
+      egipt2_141: 7508639732373919104
+      egipt2_142: -3779467754720499840
+      egipt2_143: -5754812278844434222
+      egipt2_144: 3874284569829879913
+      egipt2_145: -5520279552338086573
+      egipt2_146: 8419508083644619226
+      egipt2_147: 5133545289963408721
+      egipt2_148: 8708515865881168579
+      egipt2_149: -2021944255744122349
+      egipt2_15: -5390994833669975611
+      egipt2_150: -60858134718464047
+      egipt2_151: 4205269424932457132
+      egipt2_152: 3140366235321772335
+      egipt2_153: -5720202717515838643
+      egipt2_154: -4779473563371083026
+      egipt2_155: 8214252259649603654
+      egipt2_156: 9215023297828917539
+      egipt2_157: 3347695192494673933
+      egipt2_158: -8703515838795215949
+      egipt2_159: -1139644516244791116
+      egipt2_16: -1091756523821833009
+      egipt2_160: -3607808801087904199
+      egipt2_161: 2248153955549933076
+      egipt2_162: 6741881653430055175
+      egipt2_163: -2771399617514876286
+      egipt2_164: 5283890612891184516
+      egipt2_165: 1800223190316207895
+      egipt2_166: -8887234236749421390
+      egipt2_167: 4561567943774338481
+      egipt2_168: 2044622400338276202
+      egipt2_169: -8623764260182167901
+      egipt2_17: -5750938516775259109
+      egipt2_170: 56744960803092116
+      egipt2_171: -4221285655657039649
+      egipt2_172: -5118785463853015255
+      egipt2_173: 1476317088769669990
+      egipt2_174: 4922471284854084483
+      egipt2_175: -8462712477374514748
+      egipt2_176: 8224476310847779889
+      egipt2_177: -4715838268482058568
+      egipt2_178: 3512629820117136173
+      egipt2_179: -179647081410536580
+      egipt2_18: -8335229043087994904
+      egipt2_180: -6653029005743705379
+      egipt2_181: 414212794742113629
+      egipt2_182: 1583674278148266647
+      egipt2_183: -5803082967547093802
+      egipt2_184: -7284879312698764375
+      egipt2_185: -3609390406162650837
+      egipt2_186: -9208523421120072873
+      egipt2_187: 4088605156385086311
+      egipt2_188: -8691446489605316228
+      egipt2_189: -8548014749604309202
+      egipt2_19: 1753471309489846361
+      egipt2_190: 6858767087392236420
+      egipt2_191: 3712251887408328856
+      egipt2_192: 7518701291643087222
+      egipt2_193: -4158186477889800717
+      egipt2_194: 3746967282892492685
+      egipt2_195: 8004305478646609667
+      egipt2_196: -2136835335800156026
+      egipt2_197: -791915372160248449
+      egipt2_198: -50875350971128413
+      egipt2_199: -960290190648645605
+      egipt2_2: 2401101476746625790
+      egipt2_20: -8924334151991229237
+      egipt2_200: 4571790956432370356
+      egipt2_201: 4720984194515730371
+      egipt2_202: 339463573942818200
+      egipt2_203: -5970703806621616514
+      egipt2_204: 6030785546747332703
+      egipt2_205: 993627506863376518
+      egipt2_206: -6073128693019246462
+      egipt2_207: -1750888539285341104
+      egipt2_208: 5293507007269191392
+      egipt2_209: -2100559395707411832
+      egipt2_21: 7295668317840466871
+      egipt2_210: 6574664458265214603
+      egipt2_211: 3147309552574960469
+      egipt2_212: -5210314949652108372
+      egipt2_213: 4153872907024012078
+      egipt2_214: -7196195417100783502
+      egipt2_215: -701237487855424373
+      egipt2_216: 7212215726937474822
+      egipt2_217: 6944603431065293470
+      egipt2_218: -1216504880537402772
+      egipt2_219: -2377316017167089854
+      egipt2_22: 2006929917178661654
+      egipt2_220: -2925621618003453574
+      egipt2_221: 390258065144920993
+      egipt2_222: -5053277439389969740
+      egipt2_223: -4835150582640375892
+      egipt2_224: -7761224790124281582
+      egipt2_225: -1851375677241778350
+      egipt2_226: 1150656774326022262
+      egipt2_227: 98188480249086475
+      egipt2_228: -8414259956576955373
+      egipt2_229: -3531778449390784616
+      egipt2_23: 7812609342979642983
+      egipt2_230: 7335274313906983761
+      egipt2_231: 4297455576248822288
+      egipt2_232: 6010424566739179647
+      egipt2_24: 6983802606110210826
+      egipt2_25: 1534599962832060728
+      egipt2_26: -96667093327588119
+      egipt2_27: 3111018867814913834
+      egipt2_28: -7722381240377033176
+      egipt2_29: 207097372386110243
+      egipt2_3: -9091415276088211243
+      egipt2_30: 1276356062503354053
+      egipt2_31: 7399438892526910662
+      egipt2_32: -9055860178677112005
+      egipt2_33: 4607869578511967500
+      egipt2_34: -3295974649121402075
+      egipt2_35: -1295143361021416862
+      egipt2_36: -3353203618740384884
+      egipt2_37: -1325064350482503332
+      egipt2_38: -8190479152348405833
+      egipt2_39: 7833766513842235482
+      egipt2_4: 356297487280744074
+      egipt2_40: -8444251797589817630
+      egipt2_41: 7282537759949913169
+      egipt2_42: 2889014422217614746
+      egipt2_43: 4490774349266547186
+      egipt2_44: 322965534743295183
+      egipt2_45: 266073034736868405
+      egipt2_46: -3259455948112178519
+      egipt2_47: 3777389901621091520
+      egipt2_48: -6223127447879108388
+      egipt2_49: -3791761291468735906
+      egipt2_5: -5857241100317633693
+      egipt2_50: 2521707226119815674
+      egipt2_51: -4576763012442831707
+      egipt2_52: 8794120686116564499
+      egipt2_53: 5593830902594930120
+      egipt2_54: 8816897973282918668
+      egipt2_55: -7520674152384600463
+      egipt2_56: -8201722552394647800
+      egipt2_57: 4124107224707059897
+      egipt2_58: 3940355316813182897
+      egipt2_59: 2649929217116373622
+      egipt2_6: 2068524394422106508
+      egipt2_60: -300647855960417883
+      egipt2_61: 6472499355294435124
+      egipt2_62: 4826593600643949746
+      egipt2_63: -1379432956809916831
+      egipt2_64: 3595445564664438897
+      egipt2_65: -5805289284777384084
+      egipt2_66: -7844946911119568025
+      egipt2_67: -7852323786178477166
+      egipt2_68: -362128201822551421
+      egipt2_69: 2703448264968522587
+      egipt2_7: -8235807574605807704
+      egipt2_70: 5941346963098001409
+      egipt2_71: -1674421095812952186
+      egipt2_72: -4088440463900986095
+      egipt2_73: -3867833082927699564
+      egipt2_74: 2125692748907931116
+      egipt2_75: -7728302001879771104
+      egipt2_76: -5417690091517144727
+      egipt2_77: 640173844715263609
+      egipt2_78: -2311046122666328724
+      egipt2_79: 4923412734164099217
+      egipt2_8: 7919729611277450527
+      egipt2_80: 8258237215724416075
+      egipt2_81: -826960230073721622
+      egipt2_82: 6671998335207651433
+      egipt2_83: 160395817143309506
+      egipt2_84: -8180282654554775484
+      egipt2_85: 7357621399695283152
+      egipt2_86: -8759358560066219166
+      egipt2_87: 2665931433950358726
+      egipt2_88: -9142695474251010175
+      egipt2_89: 3743366128259687332
+      egipt2_9: -6057446057306751790
+      egipt2_90: 2437229361089370199
+      egipt2_91: -6403361456871639902
+      egipt2_92: 3204040414636335544
+      egipt2_93: -4020678183251417502
+      egipt2_94: 5858239732662689069
+      egipt2_95: -2673683744160187573
+      egipt2_96: 8294267901210811568
+      egipt2_97: -6976485738710265244
+      egipt2_98: -8692651933692061370
+      egipt2_99: 7873770847370401834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
