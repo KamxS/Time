@@ -7,8 +7,7 @@ public class Movement : MonoBehaviour
 {
     Vector2 dir;
     Rigidbody2D rb;
-    [SerializeField] float speed;
-    [SerializeField] float jumpForce;
+    public float speed;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>(); 
