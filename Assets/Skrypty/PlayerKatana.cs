@@ -18,6 +18,10 @@ public class PlayerKatana : MonoBehaviour
         {
             Attack();
         }   
+        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 difference = mousePos - new Vector2(transform.position.x,transform.position.y);
+        float rotationZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ);
     }
     void Attack()
     {
