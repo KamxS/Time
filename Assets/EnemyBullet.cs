@@ -7,7 +7,7 @@ public class EnemyBullet : MonoBehaviour
 {
     public float speed;
     private Player player;
-    public AIPath aiPath;
+    //public AIPath aiPath;
     public float starSpeed;
     public bool isSlowed;
 
@@ -34,8 +34,6 @@ public class EnemyBullet : MonoBehaviour
             speed = starSpeed;
             isSlowed = false;
         }
-
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)
