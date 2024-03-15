@@ -7,13 +7,29 @@ public sealed class Player : MonoBehaviour
 {
     //public List<GameObject> enemiesToAttack;
     public static bool playerDie;
+    private WeaponParent weaponParent;
     void Start()
     {
-        
+        weaponParent = GetComponentInChildren<WeaponParent>();
     }
 
     void Update()
     {
+
+        //weaponParent.Pointerposition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
+
+        Vector2 scale = transform.localScale;
+        if (direction.x < 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else if (direction.x > 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
+
+
         /*
         if(Input.GetMouseButton(0))
         {
