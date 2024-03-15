@@ -17,12 +17,12 @@ public class PlayerSlow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.slowTime && !isSlowed)
+        if (TimeScript.slowTime && !isSlowed)
         {
             movement.speed/= 2f;
             isSlowed = true;
         }
-        else if(!Time.slowTime && isSlowed)
+        else if(!TimeScript.slowTime && isSlowed)
         {
             movement.speed = startSpeed;
             isSlowed = false;
