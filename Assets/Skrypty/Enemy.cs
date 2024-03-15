@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
     {
         if(attackDetector.GetComponent<enemyMeele>().playerIn && !dashing)
         {
-            StartCoroutine(Attack());
+            //StartCoroutine(Attack());
         }
         /*
         if(playerInRange && !dashing)
@@ -57,6 +57,7 @@ public class Enemy : MonoBehaviour
         }
         */
     }
+    /*
     IEnumerator Attack()
     {
         ai.canMove = false;
@@ -67,6 +68,7 @@ public class Enemy : MonoBehaviour
         sprite.color = Color.white;
         ai.canMove = true;
     }
+    */
 
     /*
     private IEnumerator Dash()
