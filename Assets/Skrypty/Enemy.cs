@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public sealed class Enemy : MonoBehaviour
 {
-    GameObject Player;
+    GameObject player;
 
-    GameObject Front;
+    AIDestinationSetter ai;
     [SerializeField] GameObject bullet;
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
-        Front = GameObject.Find("Front");
+        player = GameObject.FindGameObjectWithTag("Player");
+        ai = GetComponent<AIDestinationSetter>();
     }
 
     // Update is called once per frame
@@ -22,7 +23,19 @@ public sealed class Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //Vector2 playerDistance = Vector2.Distance(Player.transform.position, transform.position;
+        Vector2 playerPos = new Vector2(player.transform.position.x, player.transform.position.y);
+        float dist = Vector2.Distance(playerPos, transform.position);
+        Debug.Log(dist);
+        if(dist < 5f)
+        {
+            StartCoroutine(Dash());
+        }
+    }
+    private IEnumerator Dash()
+    {
+        ai.target = null;
+        yield return new WaitForSeconds(1);
+        ai.target = player.transform;
     }
 
     public void Damage()
