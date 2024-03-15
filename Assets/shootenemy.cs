@@ -29,7 +29,8 @@ public class shootenemy : MonoBehaviour
 
         if (shootCooldown <= 0)
         {
-            Instantiate(bullet, front.position, front.rotation);
+            GameObject bulletInstance = Instantiate(bullet, front.position, front.rotation * Quaternion.Euler(0,0,90));
+            //bulletInstance.transform.rotation.eulerAngles = new Vector3(0,0,bullett.tra.
             shootCooldown = startShootCooldown;
         }
         else
