@@ -8,7 +8,7 @@ public sealed class Enemy : MonoBehaviour
     GameObject player;
 
     AIDestinationSetter ai;
-    [SerializeField] GameObject bullet;
+    bool dashing;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -26,16 +26,18 @@ public sealed class Enemy : MonoBehaviour
         Vector2 playerPos = new Vector2(player.transform.position.x, player.transform.position.y);
         float dist = Vector2.Distance(playerPos, transform.position);
         Debug.Log(dist);
-        if(dist < 5f)
+        if(dist < 5f && !dashing)
         {
             StartCoroutine(Dash());
         }
     }
     private IEnumerator Dash()
     {
+        dashing = true;
         ai.target = null;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(10);
         ai.target = player.transform;
+        dashing = false;
     }
 
     public void Damage()
