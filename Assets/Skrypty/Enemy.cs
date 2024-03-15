@@ -29,24 +29,10 @@ public class Enemy : MonoBehaviour
         float dashDistance = 5f;
         if(dist < dashDistance && canDash)
         {
-            StartCoroutine(Dash());
         }else if(dist>=dashDistance && !canDash)
         {
             canDash = true;
         }
-    }
-
-    private IEnumerator Dash()
-    {
-        canDash = false;
-        ai.canMove = false;
-        //rb.velocity = new Vector2(0,0);
-        yield return new WaitForSeconds(1);
-        Vector2 dashDir = new Vector2(player.transform.position.x - transform.position.x, player.transform.position.y - transform.position.y).normalized;
-        rb.velocity = dashDir * 10f;
-        yield return new WaitForSeconds(2);
-        //rb.velocity = new Vector2(0,0);
-        ai.canMove = true;
     }
 
     public void Damage()
