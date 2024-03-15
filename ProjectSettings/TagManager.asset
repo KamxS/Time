@@ -8,6 +8,7 @@ TagManager:
   - Game Music
   - Game SFX
   - Sound
+  - Spawn
   layers:
   - Default
   - TransparentFX
