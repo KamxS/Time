@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public sealed class Player : MonoBehaviour
 {
+
+    public static bool playerDie;
+
+
     public List<GameObject> enemiesToAttack;
     void Start()
     {
@@ -40,8 +44,10 @@ public sealed class Player : MonoBehaviour
     public void Die()
     {
         Destroy(gameObject);
+        playerDie = true;
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
