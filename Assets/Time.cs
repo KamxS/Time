@@ -4,13 +4,13 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Time : MonoBehaviour
+public sealed class Time : MonoBehaviour
 {
     public Image uiFill;
     public float time = 1f;
     public float loseTimeFloat = 1f;
 
-    public bool slowTime;
+    public static bool slowTime;
 
 
     private void Update()
