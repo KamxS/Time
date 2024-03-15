@@ -1,31 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public sealed class Player : MonoBehaviour
+public class PlayerKatana : MonoBehaviour
 {
-    //public List<GameObject> enemiesToAttack;
+    public List<GameObject> enemiesToAttack;
+    // Start is called before the first frame update
     void Start()
     {
         
     }
 
+    // Update is called once per frame
     void Update()
     {
-        /*
         if(Input.GetMouseButton(0))
         {
             Attack();
-        }
-        */
-
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 difference = mousePos - new Vector2(transform.position.x,transform.position.y);
-        float rotationZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ - 90);
+        }   
     }
-    /*
     void Attack()
     {
         List<GameObject> hits = new List<GameObject>();
@@ -39,15 +32,6 @@ public sealed class Player : MonoBehaviour
         }
         hits.ForEach(hit => hit.GetComponent<Enemy>().Damage());
     }
-    */
-
-    public void Die()
-    {
-        Destroy(gameObject);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    /*
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag=="Enemy")
@@ -63,5 +47,4 @@ public sealed class Player : MonoBehaviour
             enemiesToAttack.Remove(collision.gameObject);
         }        
     }
-    */
 }
