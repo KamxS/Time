@@ -6,13 +6,12 @@ using Pathfinding;
 public sealed class Enemy : MonoBehaviour
 {
     GameObject player;
-
-    AIDestinationSetter ai;
-    bool dashing;
+    AIPath ai;
+    public bool canDash = true;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        ai = GetComponent<AIDestinationSetter>();
+        ai = GetComponent<AIPath>();
     }
 
     // Update is called once per frame
@@ -26,18 +25,21 @@ public sealed class Enemy : MonoBehaviour
         Vector2 playerPos = new Vector2(player.transform.position.x, player.transform.position.y);
         float dist = Vector2.Distance(playerPos, transform.position);
         Debug.Log(dist);
-        if(dist < 5f && !dashing)
+        float dashDistance = 5f;
+        if(dist < dashDistance && canDash)
         {
             StartCoroutine(Dash());
+        }else if(dist>=dashDistance)
+        {
+            canDash = true;
         }
     }
     private IEnumerator Dash()
     {
-        dashing = true;
-        ai.target = null;
-        yield return new WaitForSeconds(10);
-        ai.target = player.transform;
-        dashing = false;
+        canDash = false;
+        ai.canMove = false;
+        yield return new WaitForSeconds(3);
+        ai.canMove = true;
     }
 
     public void Damage()
