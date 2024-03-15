@@ -18,7 +18,7 @@ public class EnemyMovementTime4 : MonoBehaviour
 
     void Update()
     {
-        if (Time.slowTime)
+        if (TimeScript.slowTime)
         {
             if(!isSlowed)
             {
@@ -27,7 +27,7 @@ public class EnemyMovementTime4 : MonoBehaviour
             }
 
         }
-        else if(!Time.slowTime)
+        else if(!TimeScript.slowTime)
         {
             aiPath.maxSpeed = starSpeed;
             isSlowed = false;
