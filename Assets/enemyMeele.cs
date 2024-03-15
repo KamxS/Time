@@ -4,14 +4,8 @@ using UnityEngine;
 
 public class enemyMeele : MonoBehaviour
 {
-    public bool playerIn;
-    private void OnTriggerEnter2D(Collider2D collision)
+    GameObject spear;
+    private void Start()
     {
-        if (collision.tag == "Player") playerIn = true;
     }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.tag == "Player") playerIn = false;
-    }
-
 }
