@@ -13,7 +13,7 @@ public class solid : MonoBehaviour
     void Start()
     {
         myRenderer = GetComponent<SpriteRenderer>();
-        myMaterial = Shader.Find("Gui/Text Shader");
+        //myMaterial = Shader.Find("Gui/Text Shader");
     }
 
 
@@ -24,7 +24,7 @@ public class solid : MonoBehaviour
 
     void ColorSprite()
     {
-        myRenderer.material.shader = myMaterial;
+        //myRenderer.material.shader = myMaterial;
         myRenderer.color = _color;
     }
 
