@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour
 
     public void Damage()
     {
-        Destroy(gameObject);
         manager.kills += 1;
+        Destroy(gameObject);
     }
 }
