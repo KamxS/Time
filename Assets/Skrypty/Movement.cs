@@ -20,17 +20,30 @@ public class Movement : MonoBehaviour
     {
         dir = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         animator.SetFloat("speed",Mathf.Abs(rb.velocity.x));
+
+
+
     }
 
     private void FixedUpdate()
     {
         if(!TimeScript.slowTime)
         {
+            if (Mathf.Abs(dir.x) > 0 && Mathf.Abs(dir.y) > 0)
+            {
+                rb.velocity = new Vector2(dir.x * speed, dir.y * speed) / 1.5f;
+            }
+            else
             rb.velocity = new Vector2(dir.x * speed, dir.y * speed);
         }
         else
         {
-            rb.velocity = new Vector2(dir.x * speed, dir.y * speed);
+            if (Mathf.Abs(dir.x) > 0 && Mathf.Abs(dir.y) > 0)
+            {
+                rb.velocity = new Vector2(dir.x * speed, dir.y * speed) / 1.5f;
+            }
+            else
+                rb.velocity = new Vector2(dir.x * speed, dir.y * speed);
             Shadows.me.Sombras_Skill();
         }
 
