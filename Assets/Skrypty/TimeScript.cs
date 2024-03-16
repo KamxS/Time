@@ -8,10 +8,10 @@ public sealed class TimeScript : MonoBehaviour
 {
     public Image uiFill;
     public Image uiFill2;
-    public float time = 1f;
-    public float loseTimeFloat = 1f;
+    float time = 2f;
     GameObject player;
     WaveSpawner WaveManager;
+    public float timeSlow;
 
     public static bool slowTime;
 
@@ -26,9 +26,9 @@ public sealed class TimeScript : MonoBehaviour
 
         if(!Pauze.PauseActive && !WaveManager.choosingUpgrade)
         {
-            if (time > 1f)
+            if (time > 1)
             {
-                time = 1f;
+                time = 1;
             }
 
             if (time <= 0f)
@@ -45,13 +45,13 @@ public sealed class TimeScript : MonoBehaviour
 
             if (slowTime)
             {
-                time -= 0.0005f;
+                time -= Time.deltaTime * timeSlow;
                 uiFill.fillAmount = time;
                 uiFill2.fillAmount = time;
             }
             else
             {
-                time += 0.0005f;
+                time += Time.deltaTime * timeSlow;
                 uiFill.fillAmount = time;
                 uiFill2.fillAmount = time;
             }
