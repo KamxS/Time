@@ -14,16 +14,17 @@ public class lightinSlowMo : MonoBehaviour
     void Update()
     {
 
-        if (TimeScript.slowTime && light2d.pointLightOuterRadius > 20)
+        if (TimeScript.slowTime && light2d.pointLightOuterRadius > 12 || TimeScript.slowTime && cameraobject.GetComponent<Camera>().orthographicSize > 5f)
         {
             light2d.pointLightOuterRadius -= 0.1f;
+            cameraobject.GetComponent<Camera>().orthographicSize -= 0.01f;
             isSlowed = true;
         }
-        else if (!TimeScript.slowTime && light2d.pointLightOuterRadius < 40)
-        {
-            
+        else if (!TimeScript.slowTime && light2d.pointLightOuterRadius < 19 || TimeScript.slowTime && cameraobject.GetComponent<Camera>().orthographicSize < 5.5f)
+        {           
             isSlowed = false;
             light2d.pointLightOuterRadius += 0.1f;
+            cameraobject.GetComponent<Camera>().orthographicSize += 0.01f;
         }
 
 
