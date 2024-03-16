@@ -1276,7 +1276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9d16d6bfe492d4a8e71e9e7ec09e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SampleScene: SampleScene
+  SampleScene: Maps-SCIFI
   uiSettings: {fileID: 113840171}
   uiCredtis: {fileID: 190386220}
 --- !u!1 &1214790970
@@ -3107,6 +3107,10 @@ PrefabInstance:
       propertyPath: _musicSlider
       value: 
       objectReference: {fileID: 1250698126}
+    - target: {fileID: 7147680064843124502, guid: e56172cb621e5b64e81dfc57fea70425, type: 3}
+      propertyPath: isMenu
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8236658109562410002, guid: e56172cb621e5b64e81dfc57fea70425, type: 3}
       propertyPath: m_Name
       value: SoundManager
