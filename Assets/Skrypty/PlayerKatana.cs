@@ -17,6 +17,7 @@ public class PlayerKatana : MonoBehaviour
         if(Input.GetMouseButton(0))
         {
             Attack();
+            SoundManager2.Instance.PlaySFX("atak");
         }   
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 difference = mousePos - new Vector2(transform.position.x,transform.position.y);

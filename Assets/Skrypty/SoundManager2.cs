@@ -35,10 +35,10 @@ public class SoundManager2 : MonoBehaviour
     {
         if (isMenu)
         {
-            PlayMusic("Theme");
+            PlayMusic("menu");
         }
         else
-            PlayMusic("Theme");
+            PlayMusic("sound2");
     }
 
     public void PlayMusic(string name)
