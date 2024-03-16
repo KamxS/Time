@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 4852277012543729871, guid: 582fb008cb607d641a5c069462d83dca, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -86,7 +86,6 @@ GameObject:
   - component: {fileID: 4435343882710302688}
   - component: {fileID: 7868284233444017746}
   - component: {fileID: 6336226919206334701}
-  - component: {fileID: 2310654057405315326}
   - component: {fileID: 8879613171144680386}
   m_Layer: 5
   m_Name: Dash
@@ -156,18 +155,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2310654057405315326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895953361767544665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea2902810dfb0cf47ab2a21d169d815c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8879613171144680386
 MonoBehaviour:
   m_ObjectHideFlags: 0

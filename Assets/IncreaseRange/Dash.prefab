@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 5547583416455618385}
   - component: {fileID: 5092721237734642097}
   m_Layer: 5
-  m_Name: Common
+  m_Name: dash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -365,7 +365,7 @@ GameObject:
   - component: {fileID: 5157728993499900598}
   - component: {fileID: 6698283710896114782}
   m_Layer: 5
-  m_Name: name
+  m_Name: skill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
