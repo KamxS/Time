@@ -17,6 +17,7 @@ public class PlayerKatana : MonoBehaviour
         if(Input.GetMouseButton(0))
         {
             Attack();
+            SoundManager2.Instance.PlaySFX("atak");
         }   
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 difference = mousePos - new Vector2(transform.position.x,transform.position.y);
@@ -35,6 +36,11 @@ public class PlayerKatana : MonoBehaviour
             }
         }
         hits.ForEach(hit => hit.GetComponent<Enemy>().Damage());
+    }
+    public void IncreaseKatana()
+    {
+        GetComponent<BoxCollider2D>().offset += new Vector2(0.1f, 0f);
+        GetComponent<BoxCollider2D>().size += new Vector2(0.2f,0f);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

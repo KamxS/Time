@@ -7,40 +7,26 @@ public sealed class Player : MonoBehaviour
 {
     //public List<GameObject> enemiesToAttack;
     public static bool playerDie;
+    private WeaponParent weaponParent;
     void Start()
     {
-        
+        weaponParent = GetComponentInChildren<WeaponParent>();
     }
 
     void Update()
     {
-        /*
-        if(Input.GetMouseButton(0))
-        {
-            Attack();
-        }
+        Vector2 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
 
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 difference = mousePos - new Vector2(transform.position.x,transform.position.y);
-        float rotationZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ - 90);
-        */
-    }
-    /*
-    void Attack()
-    {
-        List<GameObject> hits = new List<GameObject>();
-        foreach(GameObject enemy in enemiesToAttack)
+        Vector2 scale = transform.localScale;
+        if (direction.x < 0)
         {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, enemy.transform.position - transform.position, 5,~LayerMask.GetMask("Player"));
-            if (hit.transform.name == enemy.name)
-            {
-                hits.Add(enemy); 
-            }
+            GetComponent<SpriteRenderer>().flipX = true;
         }
-        hits.ForEach(hit => hit.GetComponent<Enemy>().Damage());
+        else if (direction.x > 0)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+        }
     }
-    */
 
     public void Die()
     {
@@ -48,22 +34,4 @@ public sealed class Player : MonoBehaviour
         Destroy(gameObject);
        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-
-    /*
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.tag=="Enemy")
-        {
-            enemiesToAttack.Add(collision.gameObject);
-        } 
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if(collision.tag=="Enemy")
-        {
-            enemiesToAttack.Remove(collision.gameObject);
-        }        
-    }
-    */
 }

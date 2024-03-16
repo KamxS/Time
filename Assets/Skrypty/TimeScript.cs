@@ -7,21 +7,24 @@ using UnityEngine.UI;
 public sealed class TimeScript : MonoBehaviour
 {
     public Image uiFill;
+    public Image uiFill2;
     public float time = 1f;
     public float loseTimeFloat = 1f;
     GameObject player;
+    WaveSpawner WaveManager;
 
     public static bool slowTime;
 
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        WaveManager = GameObject.FindGameObjectWithTag("Spawn").GetComponent<WaveSpawner>();
     }
 
     private void Update()
     {
 
-        if(!Pauze.PauseActive)
+        if(!Pauze.PauseActive && !WaveManager.choosingUpgrade)
         {
             if (time > 1f)
             {
@@ -44,11 +47,13 @@ public sealed class TimeScript : MonoBehaviour
             {
                 time -= 0.0005f;
                 uiFill.fillAmount = time;
+                uiFill2.fillAmount = time;
             }
             else
             {
                 time += 0.0005f;
                 uiFill.fillAmount = time;
+                uiFill2.fillAmount = time;
             }
         }
 

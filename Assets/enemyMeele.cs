@@ -4,14 +4,21 @@ using UnityEngine;
 
 public class enemyMeele : MonoBehaviour
 {
-    public bool playerIn;
-    private void OnTriggerEnter2D(Collider2D collision)
+    Transform spear;
+    Transform player;
+    private void Start()
     {
-        if (collision.tag == "Player") playerIn = true;
+        spear = transform.Find("Hand");
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
-    private void OnTriggerExit2D(Collider2D collision)
+    private void Update()
     {
-        if (collision.tag == "Player") playerIn = false;
-    }
+        Vector2 direction = (player.transform.position - transform.position).normalized;
+        spear.right = direction;
 
+        float distance = Vector2.Distance(transform.position, player.transform.position);
+        if(distance<2f)
+        {
+        }
+    }
 }

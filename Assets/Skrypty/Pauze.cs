@@ -6,6 +6,7 @@ public class Pauze : MonoBehaviour
 {
     public GameObject pauseCanvas;
     public static bool PauseActive;
+    float timeScaleBeforePause;
 
     private void Start()
     {
@@ -18,19 +19,14 @@ public class Pauze : MonoBehaviour
         {
             pauseCanvas.SetActive(true);
             PauseActive = true;
+            timeScaleBeforePause = Time.timeScale;
+            Time.timeScale = 0f;
         }
         else if (Input.GetKeyDown(KeyCode.Escape) && PauseActive)
         {
             pauseCanvas.SetActive(false);
             PauseActive = false;
+            Time.timeScale = timeScaleBeforePause;
         }
-
-        if (PauseActive)
-        {
-            Time.timeScale = 0f;
-        }
-        else
-            Time.timeScale = 1f;
-
     }
 }
