@@ -10,6 +10,7 @@ TagManager:
   - Sound
   - Spawn
   - Wall
+  - Bullet
   layers:
   - Default
   - TransparentFX
