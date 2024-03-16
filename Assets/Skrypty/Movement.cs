@@ -24,6 +24,15 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(dir.x * speed, dir.y*speed);
+        if(!TimeScript.slowTime)
+        {
+            rb.velocity = new Vector2(dir.x * speed, dir.y * speed);
+        }
+        else
+        {
+            rb.velocity = new Vector2(dir.x * speed, dir.y * speed);
+            Shadows.me.Sombras_Skill();
+        }
+
     }
 }
