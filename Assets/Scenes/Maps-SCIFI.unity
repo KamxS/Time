@@ -187,6 +187,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &340058893 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7403057388632241078, guid: ff66ac842f86ef047b6785a0a6eafcfb, type: 3}
+  m_PrefabInstance: {fileID: 1227250055}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &835445321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6230,6 +6241,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8215270903950242423, guid: ff66ac842f86ef047b6785a0a6eafcfb, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9180014821678320834, guid: ff66ac842f86ef047b6785a0a6eafcfb, type: 3}
       propertyPath: m_Text
       value: '
@@ -8458,9 +8473,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb16233c51ea1d04ebc88d3dc6082756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LayerSlider: {fileID: 0}
+  levelSlider: {fileID: 340058893}
   enemyPrefabs:
   - {fileID: 4924052137635394326, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
+  - {fileID: 3633964130939200288, guid: 53f727b4ade684544aafab6742d49da5, type: 3}
+  - {fileID: 4406402044278122819, guid: 255092dd92424314e8211712bb60fb36, type: 3}
   livingEnemies: []
   spawnPositions:
   - {fileID: 8449961084094193052}
@@ -8590,10 +8607,10 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1227250055}
+  - {fileID: 1860234464}
   - {fileID: 1592503430}
   - {fileID: 1822839402}
   - {fileID: 1980365700}
   - {fileID: 433284583414697482}
   - {fileID: 1901033458}
   - {fileID: 150039991}
-  - {fileID: 1860234464}

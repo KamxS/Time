@@ -10,7 +10,7 @@ using Random = UnityEngine.Random;
 
 public class WaveSpawner : MonoBehaviour
 {
-    public Slider LayerSlider;
+    public Slider levelSlider;
     public List<GameObject> enemyPrefabs;
     public List<GameObject> livingEnemies;
     [SerializeField] List<Transform> spawnPositions;
@@ -24,11 +24,12 @@ public class WaveSpawner : MonoBehaviour
     int enemiesAtOnce = 3;
     int playerLevel = 1;
     public int kills = 0;
-    public int killsToNewLevel = 1;
+    public int killsToNewLevel = 3;
 
     private void Update()
     {
         if (choosingUpgrade) return;
+        levelSlider.value = kills;
 
         if (livingEnemies.Count <= enemiesAtOnce/2)
         {
@@ -47,6 +48,7 @@ public class WaveSpawner : MonoBehaviour
             }
             NewUpgrade();
             killsToNewLevel *= 2;
+            levelSlider.maxValue = killsToNewLevel;
             enemiesAtOnce += 1;
             kills = 0;
         }
