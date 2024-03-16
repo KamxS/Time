@@ -9,6 +9,7 @@ TagManager:
   - Game SFX
   - Sound
   - Spawn
+  - Wall
   layers:
   - Default
   - TransparentFX
