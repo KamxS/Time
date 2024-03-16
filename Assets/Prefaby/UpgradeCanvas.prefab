@@ -278,8 +278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiFill: {fileID: 3033828071137354425}
   uiFill2: {fileID: 0}
-  time: 100
-  loseTimeFloat: 1
+  timeSlow: 0
 --- !u!1 &3680530327839187636
 GameObject:
   m_ObjectHideFlags: 0
@@ -761,19 +760,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8791488324097055124, guid: a5579a78182c72a46858b8d0063ed0e2, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8791488324097055124, guid: a5579a78182c72a46858b8d0063ed0e2, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8791488324097055124, guid: a5579a78182c72a46858b8d0063ed0e2, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8791488324097055124, guid: a5579a78182c72a46858b8d0063ed0e2, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8791488324097055124, guid: a5579a78182c72a46858b8d0063ed0e2, type: 3}
       propertyPath: m_SizeDelta.x
@@ -813,11 +812,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8791488324097055124, guid: a5579a78182c72a46858b8d0063ed0e2, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -400
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 8791488324097055124, guid: a5579a78182c72a46858b8d0063ed0e2, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 29
+      value: -228
       objectReference: {fileID: 0}
     - target: {fileID: 8791488324097055124, guid: a5579a78182c72a46858b8d0063ed0e2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

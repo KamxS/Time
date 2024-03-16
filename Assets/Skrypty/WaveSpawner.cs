@@ -94,7 +94,7 @@ public class WaveSpawner : MonoBehaviour
     {
         switch(name)
         {
-            case "Longer Slow":
+            case "Longer BulletTime":
                 TimeScript timescr = GameObject.FindGameObjectWithTag("Time").GetComponent<TimeScript>();
                 timescr.timeSlow -= 0.1f;
                 if (timescr.timeSlow == 0) timescr.timeSlow = 0.1f;
