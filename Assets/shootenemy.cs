@@ -39,6 +39,30 @@ public class shootenemy : MonoBehaviour
         }
         else
             shootCooldown -= Time.deltaTime;
-
     }
+
+
+    public void RandomFootStep()
+    {
+        int randomnumber = Random.Range(0, 4);
+        {
+            if (randomnumber == 0)
+            {
+                SoundManager2.Instance.PlaySFX("shoot1");
+            }
+            if (randomnumber == 1)
+            {
+                SoundManager2.Instance.PlaySFX("shoot2");
+            }
+            if (randomnumber == 2)
+            {
+                SoundManager2.Instance.PlaySFX("shoot3");
+            }
+            if (randomnumber == 3)
+            {
+                SoundManager2.Instance.PlaySFX("shoot4");
+            }
+        }
+    }
+
 }

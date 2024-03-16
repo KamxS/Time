@@ -28,6 +28,7 @@ public class Enemy : MonoBehaviour
 
     public void Damage()
     {
+        SoundManager2.Instance.PlaySFX("kill");
         manager.kills += 1;
         Destroy(gameObject);
     }

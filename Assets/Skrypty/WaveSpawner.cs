@@ -82,6 +82,7 @@ public class WaveSpawner : MonoBehaviour
     void NewUpgrade()
     {
         NewUpgradeUi.SetActive(true);
+        SoundManager2.Instance.PlaySFX("lvlup");
         //canSpawnNextWave = false;
     }
 
