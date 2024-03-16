@@ -119,7 +119,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &2806071062611597699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,5 +423,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4747cd4e05ca4d04a8e0aa5f599eb635, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterRenderer: {fileID: 0}
-  weaponRenderer: {fileID: 0}
