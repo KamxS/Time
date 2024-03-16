@@ -1276,7 +1276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc9d16d6bfe492d4a8e71e9e7ec09e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SampleScene: Maps-SCIFI
+  SampleScene: Scifi
   uiSettings: {fileID: 113840171}
   uiCredtis: {fileID: 190386220}
 --- !u!1 &1214790970
