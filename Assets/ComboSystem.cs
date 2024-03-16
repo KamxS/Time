@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
 using TMPro;
 using UnityEngine;
 
 public class ComboSystem : MonoBehaviour
 {
     public TextMeshProUGUI textCombo;
-    public int kills= 0;
+    public TextMeshProUGUI pointsTxt;
+    int points = 0;
     float comboMultiplier=1.0f;
     public float timeTillReset = 3;
     float curTime = 0;
@@ -17,8 +19,8 @@ public class ComboSystem : MonoBehaviour
 
     private void Update()
     {
-        textCombo.text = comboMultiplier.ToString().Replace(",",".") + "x";
-        Debug.Log("CurTime: " + curTime);
+        textCombo.text = Math.Round(comboMultiplier,1).ToString().Replace(",",".") + "x";
+        pointsTxt.text = points.ToString();
         if (curTime > 0)
         {
             curTime -= Time.deltaTime;
@@ -31,9 +33,8 @@ public class ComboSystem : MonoBehaviour
     }
     public void Kill()
     {
-        kills += 1;
+        points += (int)(10 * comboMultiplier);
         comboMultiplier += 0.1f;
         curTime = timeTillReset;
-        Debug.Log("Combo: " + comboMultiplier);
     }
 }
