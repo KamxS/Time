@@ -55,7 +55,7 @@ public class WaveSpawner : MonoBehaviour
             {
                 int randomnum = Random.Range(0, upgradelist.Length);
                 GameObject upgradeElement = Instantiate(upgradelist[randomnum], NewUpgradeUi.transform);
-                upgradeElement.GetComponent<Button>().onClick.AddListener(() => ChooseUpgrade(upgradeElement.transform.Find("name").GetComponent<Text>().text));
+                upgradeElement.GetComponent<Button>().onClick.AddListener(() => ChooseUpgrade(upgradeElement.transform.Find("Panel").Find("name").GetComponent<Text>().text));
             }
             NewUpgrade();
             killsToNewLevel *= 2;

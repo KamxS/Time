@@ -10735,6 +10735,8 @@ MonoBehaviour:
   - {fileID: 4924052137635394326, guid: b4b9a3355235d144189ca45b76571e4d, type: 3}
   - {fileID: 3633964130939200288, guid: 53f727b4ade684544aafab6742d49da5, type: 3}
   - {fileID: 4406402044278122819, guid: 255092dd92424314e8211712bb60fb36, type: 3}
+  - {fileID: 2333637746577178801, guid: 3b3c71fee0db712438b6473b0bbc49bd, type: 3}
+  - {fileID: 3353750657847203733, guid: 78ccc17b080113b4ca293ea18d3c03f5, type: 3}
   livingEnemies: []
   spawnPositions:
   - {fileID: 8449961084094193052}

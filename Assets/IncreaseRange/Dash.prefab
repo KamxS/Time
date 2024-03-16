@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 5547583416455618385}
   - component: {fileID: 5092721237734642097}
   m_Layer: 5
-  m_Name: dash
+  m_Name: name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
