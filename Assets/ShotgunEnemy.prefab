@@ -265,8 +265,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 7890797455759768182, guid: f8bec2a775c0da146bc4a25886aa5cf1, type: 3}
-  shootCooldown: 2
-  startShootCooldown: 2
+  shootCooldown: 4
+  startShootCooldown: 4
   recoil: 5
 --- !u!58 &1165232716662085566
 CircleCollider2D:
