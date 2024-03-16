@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public sealed class TimeScript : MonoBehaviour
 {
     public Image uiFill;
+    public Image uiFill2;
     public float time = 1f;
     public float loseTimeFloat = 1f;
     GameObject player;
@@ -44,11 +45,13 @@ public sealed class TimeScript : MonoBehaviour
             {
                 time -= 0.0005f;
                 uiFill.fillAmount = time;
+                uiFill2.fillAmount = time;
             }
             else
             {
                 time += 0.0005f;
                 uiFill.fillAmount = time;
+                uiFill2.fillAmount = time;
             }
         }
 
