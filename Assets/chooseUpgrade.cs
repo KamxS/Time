@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class chooseUpgrade : MonoBehaviour
 {
-
-    public WaveSpawner waveSpawner;
+    WaveSpawner waveSpawner;
 
     void Start()
     {
