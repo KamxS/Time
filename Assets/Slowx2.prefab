@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 390435135912102703}
   - component: {fileID: 7044896676030925378}
   m_Layer: 5
-  m_Name: Panel1
+  m_Name: Slowx2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 6203647213223066693}
   - component: {fileID: 8095228818605519663}
   m_Layer: 5
-  m_Name: Common (1)
+  m_Name: name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
