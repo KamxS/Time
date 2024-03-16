@@ -1,9 +1,11 @@
 using NUnit.Framework;
 using Pathfinding;
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Security.Cryptography;
+using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class WaveSpawner : MonoBehaviour
 {
@@ -15,29 +17,37 @@ public class WaveSpawner : MonoBehaviour
     public GameObject[] upgradelist;
     public bool canSpawnNextWave;
     public bool ChooseUpgradee;
-    public int waveNumber;
     private int upgradeCounter = 0; // Licznik u¿yæ funkcji GenereateUpgrade()
 
-    void Start()
-    {
-
-    }
+    int enemiesAtOnce = 3;
+    int playerLevel = 1;
+    public int kills = 0;
+    public int killsToNewLevel = 1;
 
     private void Update()
     {
-        if (livingEnemies.Count == 0 && !canSpawnNextWave)
+        if (kills >= killsToNewLevel)
         {
             for (int i = 0; i <= 2; i++)
             {
                 GenereateUpgrade();
             }
             NewUpgrade();
+            killsToNewLevel *= 2;
+            kills = 0;
         }
 
+        if (livingEnemies.Count <= enemiesAtOnce)
+        {
+            GenerateEnemies();
+        }
+
+        /*
         if (livingEnemies.Count == 0 && canSpawnNextWave)
         {
             GenerateWave();
         }
+        */
     }
 
     private void FixedUpdate()
@@ -45,19 +55,24 @@ public class WaveSpawner : MonoBehaviour
         livingEnemies = livingEnemies.FindAll(item => item != null);
     }
 
+    /*
     void GenerateWave()
+    {
+        GenerateEnemies();
+        canSpawnNextWave = false;
+    }
+    */
+
+    void GenerateEnemies()
     {
         foreach (Transform t in spawnPositions)
         {
+            if (livingEnemies.Count > enemiesAtOnce) break;
             int enemyInd = Random.Range(0, enemyPrefabs.Count);
             GameObject enemy = Instantiate(enemyPrefabs[enemyInd], t.position, Quaternion.identity);
             livingEnemies.Add(enemy);
-
         }
-        waveNumber += 1;
-        canSpawnNextWave = false;
     }
-
 
     void NewUpgrade()
     {
@@ -72,7 +87,6 @@ public class WaveSpawner : MonoBehaviour
         {
             int randomnum = Random.Range(0, upgradelist.Length - 1);
             Instantiate(upgradelist[randomnum], NewUpgradeUi.transform);
-            Debug.Log("New");
             upgradeCounter++; // Zwiêkszanie licznika po ka¿dym wywo³aniu funkcji
         }
     }

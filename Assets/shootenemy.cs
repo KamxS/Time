@@ -10,7 +10,7 @@ public class shootenemy : MonoBehaviour
     public GameObject bullet;
     public float shootCooldown;
     public float startShootCooldown;
-
+    public int recoil;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +18,6 @@ public class shootenemy : MonoBehaviour
         shootCooldown = startShootCooldown;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         front = gameObject.transform.Find("Front").transform;
-        gameObject.GetComponent<AIDestinationSetter>().target = player;
     }
 
     // Update is called once per frame
@@ -29,8 +28,13 @@ public class shootenemy : MonoBehaviour
 
         if (shootCooldown <= 0)
         {
-            GameObject bulletInstance = Instantiate(bullet, front.position, front.rotation );
-            //bulletInstance.transform.rotation.eulerAngles = new Vector3(0,0,bullett.tra.
+            Quaternion bulletRotation = front.rotation;
+            if(recoil > 0)
+            {
+                int randRot = Random.Range(-recoil, recoil);
+                bulletRotation *= Quaternion.Euler(0, 0, randRot);
+            }
+            Instantiate(bullet, front.position, bulletRotation);
             shootCooldown = startShootCooldown;
         }
         else
