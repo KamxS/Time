@@ -17,7 +17,6 @@ public sealed class Player : MonoBehaviour
     {
         Vector2 direction = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
 
-        Vector2 scale = transform.localScale;
         if (direction.x < 0)
         {
             GetComponent<SpriteRenderer>().flipX = true;

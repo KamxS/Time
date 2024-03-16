@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerKatana : MonoBehaviour
 {
     public List<GameObject> enemiesToAttack;
+    public int katanaSize = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,8 +40,10 @@ public class PlayerKatana : MonoBehaviour
     }
     public void IncreaseKatana()
     {
-        GetComponent<BoxCollider2D>().offset += new Vector2(0.1f, 0f);
-        GetComponent<BoxCollider2D>().size += new Vector2(0.2f,0f);
+        WeaponParent weapon = transform.parent.Find("WeaponParent").GetComponent<WeaponParent>();
+        if (weapon.katanaSize < 2f) weapon.katanaSize += 0.1f;
+        GetComponent<BoxCollider2D>().offset += new Vector2(0.05f, 0f);
+        GetComponent<BoxCollider2D>().size += new Vector2(0.1f,0f);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

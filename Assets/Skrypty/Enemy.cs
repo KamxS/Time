@@ -7,6 +7,7 @@ using System;
 public class Enemy : MonoBehaviour
 {
     WaveSpawner manager;
+    ComboSystem comboSystem;
     Transform player;
     void Start()
     {
@@ -15,6 +16,7 @@ public class Enemy : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         gameObject.GetComponent<AIDestinationSetter>().target = player;
         manager = GameObject.FindGameObjectWithTag("Spawn").GetComponent<WaveSpawner>();
+        comboSystem= GameObject.FindGameObjectWithTag("Spawn").GetComponent<ComboSystem>();
     }
 
     // Update is called once per frame
@@ -39,6 +41,7 @@ public class Enemy : MonoBehaviour
     {
         SoundManager2.Instance.PlaySFX("kill");
         manager.kills += 1;
+        comboSystem.Kill();
         Destroy(gameObject);
     }
 }
