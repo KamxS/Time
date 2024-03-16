@@ -5,6 +5,7 @@ using UnityEngine;
 public class WeaponParent : MonoBehaviour
 {
     //public SpriteRenderer characterRenderer,weaponRenderer;
+    public float katanaSize=1;
   
 
     private void Update()
@@ -14,13 +15,13 @@ public class WeaponParent : MonoBehaviour
         transform.right = direction;
 
         Vector2 scale = transform.localScale;
-        if (direction.x < 0)
+        if (direction.x < 0 )
         {
-            scale.y = -1;
+            scale.y = -1*katanaSize;
         }
         else if (direction.x > 0)
         {
-            scale.y = 1;
+            scale.y = katanaSize;
         }
         transform.localScale = scale;
 

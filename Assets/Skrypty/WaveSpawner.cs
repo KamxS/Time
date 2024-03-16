@@ -52,7 +52,7 @@ public class WaveSpawner : MonoBehaviour
             Time.timeScale = 0;
             for (int i = 0; i <= 2; i++)
             {
-                int randomnum = Random.Range(0, upgradelist.Length - 1);
+                int randomnum = Random.Range(0, upgradelist.Length);
                 GameObject upgradeElement = Instantiate(upgradelist[randomnum], NewUpgradeUi.transform);
                 upgradeElement.GetComponent<Button>().onClick.AddListener(() => ChooseUpgrade(upgradeElement.transform.Find("name").GetComponent<Text>().text));
             }
@@ -87,7 +87,6 @@ public class WaveSpawner : MonoBehaviour
     {
         NewUpgradeUi.SetActive(true);
         SoundManager2.Instance.PlaySFX("lvlup");
-        //canSpawnNextWave = false;
     }
 
     public void ChooseUpgrade(string name)
@@ -95,8 +94,10 @@ public class WaveSpawner : MonoBehaviour
         switch(name)
         {
             case "Slowx2":
+
                 break;
-            case "Speed":
+            case "Increase Speed":
+                player.GetComponent<Movement>().speed += 0.2f;
                 break;
             case "Increase Range":
                 player.Find("Attack").GetComponent<PlayerKatana>().IncreaseKatana();
@@ -113,7 +114,6 @@ public class WaveSpawner : MonoBehaviour
         }
         choosingUpgrade = false;
         Time.timeScale = 1;
-        //canSpawnNextWave = true;
     }
 
 }

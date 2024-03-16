@@ -214,7 +214,7 @@ Transform:
   m_GameObject: {fileID: 172733210}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -6.63, y: -10.21, z: 0}
+  m_LocalPosition: {x: -6.63, y: -9.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -250,7 +250,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -331,7 +331,7 @@ Transform:
   m_GameObject: {fileID: 399924164}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -6.63, y: 11.04, z: 0}
+  m_LocalPosition: {x: -6.63, y: 9.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -367,7 +367,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -437,7 +437,7 @@ Transform:
   m_GameObject: {fileID: 733069339}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.38, y: -0.5470948, z: 0}
+  m_LocalPosition: {x: 15.38, y: -0.5470948, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -473,7 +473,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -6474,7 +6474,7 @@ Transform:
   m_GameObject: {fileID: 1170809083}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.55, y: -0.5470948, z: 0}
+  m_LocalPosition: {x: -15.5, y: -0.5470948, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6510,7 +6510,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -8775,6 +8775,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -175
       objectReference: {fileID: 0}
+    - target: {fileID: 5956523528882674616, guid: 695894149b16bf74995c211547fc2c87, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 6875321682909669056, guid: 695894149b16bf74995c211547fc2c87, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -175
@@ -8911,6 +8915,14 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 7134045405954426628, guid: 7a437596654062f46b7f17142c27873e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7134045405954426628, guid: 7a437596654062f46b7f17142c27873e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -9000,9 +9012,8 @@ MonoBehaviour:
   - {fileID: 3197043207443742351}
   NewUpgradeUi: {fileID: 867000437}
   upgradelist:
-  - {fileID: 1895953361767544665, guid: 297b59bffec6ebf489ff148772fb7af7, type: 3}
-  - {fileID: 993964201488085005, guid: 2d4c575d8dae34b4f85673f3bfa1803b, type: 3}
-  - {fileID: 993964201488085005, guid: 2d4c575d8dae34b4f85673f3bfa1803b, type: 3}
+  - {fileID: 1895953361767544665, guid: 0e09605c4cb8a6c4a9ba04626a85bd4f, type: 3}
+  - {fileID: 1895953361767544665, guid: d6622b19c5402e14cb7128e941791d29, type: 3}
   canSpawnNextWave: 0
   choosingUpgrade: 0
   kills: 0
