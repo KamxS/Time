@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Pauze : MonoBehaviour
 {
@@ -29,4 +30,17 @@ public class Pauze : MonoBehaviour
             Time.timeScale = timeScaleBeforePause;
         }
     }
+
+    public void menu()
+    {
+        SoundManager2.Instance.PlaySFX("Switch");
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
+
+
 }
