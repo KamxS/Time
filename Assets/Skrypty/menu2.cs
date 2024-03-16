@@ -12,7 +12,7 @@ public class menu2 : MonoBehaviour
     public void Play()
     {
         SoundManager2.Instance.PlaySFX("Switch");
-        SceneManager.LoadScene("Maps-SCIFI");
+        SceneManager.LoadScene("Scifi");
     }
 
     public void Settings()
