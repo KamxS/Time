@@ -6,10 +6,12 @@ public class PlayerKatana : MonoBehaviour
 {
     public List<GameObject> enemiesToAttack;
     public int katanaSize = 1;
+    public GameObject cameratoshake;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -37,6 +39,7 @@ public class PlayerKatana : MonoBehaviour
             }
         }
         hits.ForEach(hit => hit.GetComponent<Enemy>().Damage());
+        RandomSake();
     }
     public void IncreaseKatana()
     {
@@ -50,7 +53,33 @@ public class PlayerKatana : MonoBehaviour
         if(collision.tag=="Enemy")
         {
             enemiesToAttack.Add(collision.gameObject);
+            
         } 
+    }
+
+    public void RandomSake()
+    {
+        int randomnumber = Random.Range(0, 3);
+        {
+
+            Debug.Log("losowanie");
+
+            if (randomnumber == 0)
+            {
+                cameratoshake.GetComponent<Animator>().SetTrigger("shake1");
+                Debug.Log("1");
+            }
+            if (randomnumber == 1)
+            {
+                cameratoshake.GetComponent<Animator>().SetTrigger("shake2");
+                Debug.Log("2");
+            }
+            if (randomnumber == 2)
+            {
+                cameratoshake.GetComponent<Animator>().SetTrigger("shake3");
+                Debug.Log("3");
+            }
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
