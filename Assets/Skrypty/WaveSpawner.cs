@@ -10,15 +10,15 @@ using Random = UnityEngine.Random;
 
 public class WaveSpawner : MonoBehaviour
 {
+    public Slider LayerSlider;
     public List<GameObject> enemyPrefabs;
     public List<GameObject> livingEnemies;
     [SerializeField] List<Transform> spawnPositions;
+    int enemySpawnPos = 0;
 
     public GameObject NewUpgradeUi;
     public GameObject[] upgradelist;
     public bool canSpawnNextWave;
-    public bool ChooseUpgradee;
-    private int upgradeCounter = 0; // Licznik u¿yæ funkcji GenereateUpgrade()
     public bool choosingUpgrade;
 
     int enemiesAtOnce = 3;
@@ -30,7 +30,7 @@ public class WaveSpawner : MonoBehaviour
     {
         if (choosingUpgrade) return;
 
-        if (livingEnemies.Count <= enemiesAtOnce)
+        if (livingEnemies.Count <= enemiesAtOnce/2)
         {
             GenerateEnemies();
         }
@@ -43,21 +43,13 @@ public class WaveSpawner : MonoBehaviour
             {
                 int randomnum = Random.Range(0, upgradelist.Length - 1);
                 GameObject upgradeElement = Instantiate(upgradelist[randomnum], NewUpgradeUi.transform);
-                upgradeElement.GetComponent<Button>().onClick.AddListener(ChooseUpgrade);
-            //upgradeCounter++; // Zwiêkszanie licznika po ka¿dym wywo³aniu funkcji
-                //GenereateUpgrade();
+                upgradeElement.GetComponent<Button>().onClick.AddListener(() => ChooseUpgrade(upgradeElement.transform.Find("name").GetComponent<Text>().text));
             }
             NewUpgrade();
             killsToNewLevel *= 2;
+            enemiesAtOnce += 1;
             kills = 0;
         }
-
-        /*
-        if (livingEnemies.Count == 0 && canSpawnNextWave)
-        {
-            GenerateWave();
-        }
-        */
     }
 
     private void FixedUpdate()
@@ -65,22 +57,15 @@ public class WaveSpawner : MonoBehaviour
         livingEnemies = livingEnemies.FindAll(item => item != null);
     }
 
-    /*
-    void GenerateWave()
-    {
-        GenerateEnemies();
-        canSpawnNextWave = false;
-    }
-    */
-
     void GenerateEnemies()
     {
-        foreach (Transform t in spawnPositions)
+        while(livingEnemies.Count < enemiesAtOnce)
         {
-            if (livingEnemies.Count > enemiesAtOnce) break;
             int enemyInd = Random.Range(0, enemyPrefabs.Count);
-            GameObject enemy = Instantiate(enemyPrefabs[enemyInd], t.position, Quaternion.identity);
+            GameObject enemy = Instantiate(enemyPrefabs[enemyInd], spawnPositions[enemySpawnPos].position, Quaternion.identity);
             livingEnemies.Add(enemy);
+            enemySpawnPos++;
+            if (enemySpawnPos == spawnPositions.Count) enemySpawnPos = 0;
         }
     }
 
@@ -90,20 +75,8 @@ public class WaveSpawner : MonoBehaviour
         //canSpawnNextWave = false;
     }
 
-    void GenereateUpgrade()
+    public void ChooseUpgrade(string name)
     {
-        // Sprawdzanie, czy funkcja GenereateUpgrade() zosta³a ju¿ wywo³ana trzy razy
-        if (upgradeCounter < 3)
-        {
-            int randomnum = Random.Range(0, upgradelist.Length - 1);
-            Instantiate(upgradelist[randomnum], NewUpgradeUi.transform);
-            upgradeCounter++; // Zwiêkszanie licznika po ka¿dym wywo³aniu funkcji
-        }
-    }
-
-    public void ChooseUpgrade()
-    {
-        Debug.Log("XD");
         NewUpgradeUi.SetActive(false);
         choosingUpgrade = false;
         Time.timeScale = 1;
