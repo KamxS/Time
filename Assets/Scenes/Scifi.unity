@@ -10248,6 +10248,10 @@ PrefabInstance:
       propertyPath: speed
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 2806071062611597699, guid: 7a437596654062f46b7f17142c27873e, type: 3}
+      propertyPath: dashDistance
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7134045405954426628, guid: 7a437596654062f46b7f17142c27873e, type: 3}
       propertyPath: m_Size.x
       value: 1.2
