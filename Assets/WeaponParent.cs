@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class WeaponParent : MonoBehaviour
 {
-    public Vector2 Pointerposition { get; set; }
-
-    public SpriteRenderer characterRenderer,weaponRenderer;
+    //public SpriteRenderer characterRenderer,weaponRenderer;
 
     private void Update()
     {
@@ -25,6 +23,7 @@ public class WeaponParent : MonoBehaviour
         }
         transform.localScale = scale;
 
+        /*
         if(transform.eulerAngles.z > 0 && transform.eulerAngles.z < 180)
         {
             weaponRenderer.sortingOrder = characterRenderer.sortingOrder - 0;
@@ -33,6 +32,7 @@ public class WeaponParent : MonoBehaviour
         {
             weaponRenderer.sortingOrder = characterRenderer.sortingOrder + 1;
         }
+        */
 
     }
 

@@ -6,10 +6,13 @@ using System;
 
 public class Enemy : MonoBehaviour
 {
+    WaveSpawner manager;
     Transform player;
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        gameObject.GetComponent<AIDestinationSetter>().target = player;
+        manager = GameObject.FindGameObjectWithTag("Spawn").GetComponent<WaveSpawner>();
     }
 
     // Update is called once per frame
@@ -26,5 +29,6 @@ public class Enemy : MonoBehaviour
     public void Damage()
     {
         Destroy(gameObject);
+        manager.kills -= 1;
     }
 }
