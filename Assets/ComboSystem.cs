@@ -8,6 +8,7 @@ public class ComboSystem : MonoBehaviour
 {
     public TextMeshProUGUI textCombo;
     public TextMeshProUGUI pointsTxt;
+
     int points = 0;
     float comboMultiplier=1.0f;
     public float timeTillReset = 3;

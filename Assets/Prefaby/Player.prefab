@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b644efcf6e327a046a89dc6402731ea7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathParticle: {fileID: 1004759432221502749, guid: 1c3b0531919c92a498856091af748268, type: 3}
 --- !u!114 &-5203963225624382810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,6 +281,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesToAttack: []
+  katanaSize: 1
+  cameratoshake: {fileID: 0}
 --- !u!61 &7134045405954426628
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -493,3 +496,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4747cd4e05ca4d04a8e0aa5f599eb635, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  katanaSize: 1

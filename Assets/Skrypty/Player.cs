@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public sealed class Player : MonoBehaviour
 {
     //public List<GameObject> enemiesToAttack;
+    public ParticleSystem deathParticle;
     public static bool playerDie;
     private WeaponParent weaponParent;
     void Start()
@@ -30,6 +31,7 @@ public sealed class Player : MonoBehaviour
     public void Die()
     {
         playerDie = true;
+        Instantiate(deathParticle, transform.position, Quaternion.identity);
         Destroy(gameObject);
        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
