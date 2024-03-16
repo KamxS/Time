@@ -18,7 +18,13 @@ public class Respawn : MonoBehaviour
     {
         if (Player.playerDie)
         {
-
+            ComboSystem combo = GameObject.FindGameObjectWithTag("Spawn").GetComponent<ComboSystem>();
+            if(combo.points > PlayerPrefs.GetInt("Highscore",0))
+            {
+                PlayerPrefs.SetInt("Highscore", combo.points);
+            }
+            Debug.Log("Score: " + combo.points);
+            Debug.Log("HighScore: " + PlayerPrefs.GetInt("Highscore",0));
             gameoverUI.SetActive(true);
 
             if (Input.GetKeyDown(KeyCode.R))
