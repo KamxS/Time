@@ -96,9 +96,7 @@ public class WaveSpawner : MonoBehaviour
         {
             case "Longer Slow":
                 TimeScript timescr = GameObject.FindGameObjectWithTag("Time").GetComponent<TimeScript>();
-                Debug.Log("Timescr: " + timescr.timeSlow);
                 timescr.timeSlow -= 0.1f;
-                Debug.Log("Timescr: " + timescr.timeSlow);
                 if (timescr.timeSlow == 0) timescr.timeSlow = 0.1f;
                 break;
             case "Increase Speed":
