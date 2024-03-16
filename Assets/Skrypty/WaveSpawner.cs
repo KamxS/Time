@@ -3,6 +3,7 @@ using Pathfinding;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,6 +12,7 @@ using Random = UnityEngine.Random;
 public class WaveSpawner : MonoBehaviour
 {
     public Slider levelSlider;
+    TextMeshProUGUI levelText;
     public List<GameObject> enemyPrefabs;
     public List<GameObject> livingEnemies;
     [SerializeField] List<Transform> spawnPositions;
@@ -25,6 +27,12 @@ public class WaveSpawner : MonoBehaviour
     int playerLevel = 1;
     public int kills = 0;
     public int killsToNewLevel = 3;
+
+    private void Start()
+    {
+        levelSlider.maxValue = killsToNewLevel;
+        levelText = levelSlider.transform.Find("levelNum").GetComponent<TextMeshProUGUI>();
+    }
 
     private void Update()
     {

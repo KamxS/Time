@@ -227,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7787814399947812941}
   - component: {fileID: 7551761683039519896}
-  - component: {fileID: 854573229687355000}
+  - component: {fileID: 7134045405954426628}
   m_Layer: 12
   m_Name: GameObject
   m_TagString: Untagged
@@ -263,8 +263,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesToAttack: []
---- !u!60 &854573229687355000
-PolygonCollider2D:
+--- !u!61 &7134045405954426628
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -297,7 +297,7 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.45553672, y: 0.18294656}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -307,14 +307,8 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.7034159, y: 0.48621428}
-      - {x: 0.06940681, y: -0.014502227}
-      - {x: 0.06290251, y: -0.019920588}
-      - {x: 0.74743366, y: -0.39215744}
-      - {x: 0.7768309, y: 0.47721633}
-  m_UseDelaunayMesh: 0
+  m_Size: {x: 1.3622341, y: 1.3658929}
+  m_EdgeRadius: 0
 --- !u!1 &7157628287172181862
 GameObject:
   m_ObjectHideFlags: 0
