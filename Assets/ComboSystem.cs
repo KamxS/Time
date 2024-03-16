@@ -1,30 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ComboSystem : MonoBehaviour
 {
+    public TextMeshProUGUI textCombo;
     public int kills= 0;
     float comboMultiplier=1.0f;
+    public float timeTillReset = 3;
+    float curTime = 0;
+
+    private void Start()
+    {
+    }
 
     private void Update()
     {
-        if(comboMultiplier>0)
+        textCombo.text = comboMultiplier.ToString().Replace(",",".") + "x";
+        Debug.Log("CurTime: " + curTime);
+        if (curTime > 0)
         {
+            curTime -= Time.deltaTime;
         }
+        else EndCombo();
+    }
+    void EndCombo()
+    {
+        comboMultiplier = 1f;
     }
     public void Kill()
     {
-        StopCoroutine(EndCombo());
         kills += 1;
-        comboMultiplier *= 1.2f;
+        comboMultiplier += 0.1f;
+        curTime = timeTillReset;
         Debug.Log("Combo: " + comboMultiplier);
-    }
-
-    IEnumerator EndCombo()
-    {
-        yield return new WaitForSeconds(5f);
-        Debug.Log("Combo Done");
-        comboMultiplier = 0;
     }
 }
