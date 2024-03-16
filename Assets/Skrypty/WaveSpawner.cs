@@ -11,6 +11,7 @@ using Random = UnityEngine.Random;
 
 public class WaveSpawner : MonoBehaviour
 {
+    Transform player;
     public Slider levelSlider;
     TextMeshProUGUI levelText;
     public List<GameObject> enemyPrefabs;
@@ -32,6 +33,7 @@ public class WaveSpawner : MonoBehaviour
     {
         levelSlider.maxValue = killsToNewLevel;
         levelText = levelSlider.transform.Find("levelNum").GetComponent<TextMeshProUGUI>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     private void Update()
@@ -95,6 +97,9 @@ public class WaveSpawner : MonoBehaviour
             case "Slowx2":
                 break;
             case "Speed":
+                break;
+            case "Incr":
+                player.FindChild("Attack").GetComponent<PlayerKatana>().IncreaseKatana();
                 break;
         }
         foreach(GameObject bullet in GameObject.FindGameObjectsWithTag("Bullet"))

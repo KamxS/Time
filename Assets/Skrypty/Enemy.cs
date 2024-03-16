@@ -10,6 +10,8 @@ public class Enemy : MonoBehaviour
     Transform player;
     void Start()
     {
+        gameObject.GetComponent<shootenemy>().enabled = true;
+        gameObject.GetComponent<AIPath>().canMove = false;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         gameObject.GetComponent<AIDestinationSetter>().target = player;
         manager = GameObject.FindGameObjectWithTag("Spawn").GetComponent<WaveSpawner>();
@@ -22,8 +24,15 @@ public class Enemy : MonoBehaviour
         if(direction.x<0)
         {
             gameObject.transform.localScale = new Vector3(-1,1,1);
-        }else 
+        }else
+        {
             gameObject.transform.localScale = new Vector3(1,1,1);
+        }
+    }
+    public void TurnOn()
+    {
+        gameObject.GetComponent<AIPath>().canMove = true;
+        gameObject.GetComponent<shootenemy>().enabled = true;
     }
 
     public void Damage()
