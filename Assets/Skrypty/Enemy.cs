@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     Transform player;
     void Start()
     {
-        gameObject.GetComponent<shootenemy>().enabled = true;
+        gameObject.GetComponent<shootenemy>().enabled = false;
         gameObject.GetComponent<AIPath>().canMove = false;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         gameObject.GetComponent<AIDestinationSetter>().target = player;

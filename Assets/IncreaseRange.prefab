@@ -86,7 +86,6 @@ GameObject:
   - component: {fileID: 4435343882710302688}
   - component: {fileID: 7868284233444017746}
   - component: {fileID: 6336226919206334701}
-  - component: {fileID: 2310654057405315326}
   - component: {fileID: 8879613171144680386}
   m_Layer: 5
   m_Name: IncreaseRange
@@ -156,18 +155,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2310654057405315326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895953361767544665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea2902810dfb0cf47ab2a21d169d815c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8879613171144680386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,10 +345,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 12
     m_FontStyle: 1
     m_BestFit: 1
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -369,7 +356,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dash
+  m_Text: Increase Range
 --- !u!1 &7794239558885511172
 GameObject:
   m_ObjectHideFlags: 0
