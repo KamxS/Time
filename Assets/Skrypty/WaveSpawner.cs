@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
@@ -93,8 +94,12 @@ public class WaveSpawner : MonoBehaviour
     {
         switch(name)
         {
-            case "Slowx2":
-
+            case "Longer Slow":
+                TimeScript timescr = GameObject.FindGameObjectWithTag("Time").GetComponent<TimeScript>();
+                Debug.Log("Timescr: " + timescr.timeSlow);
+                timescr.timeSlow -= 0.1f;
+                Debug.Log("Timescr: " + timescr.timeSlow);
+                if (timescr.timeSlow == 0) timescr.timeSlow = 0.1f;
                 break;
             case "Increase Speed":
                 player.GetComponent<Movement>().speed += 0.2f;
