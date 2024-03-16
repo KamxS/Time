@@ -46,10 +46,10 @@ public class WaveSpawner : MonoBehaviour
             GenerateEnemies();
         }
 
-        if (kills >= killsToNewLevel)
+        if (kills >= killsToNewLevel && !choosingUpgrade)
         {
-            Time.timeScale = 0;
             choosingUpgrade = true;
+            Time.timeScale = 0;
             for (int i = 0; i <= 2; i++)
             {
                 int randomnum = Random.Range(0, upgradelist.Length - 1);
@@ -98,8 +98,8 @@ public class WaveSpawner : MonoBehaviour
                 break;
             case "Speed":
                 break;
-            case "Incr":
-                player.FindChild("Attack").GetComponent<PlayerKatana>().IncreaseKatana();
+            case "Increase Range":
+                player.Find("Attack").GetComponent<PlayerKatana>().IncreaseKatana();
                 break;
         }
         foreach(GameObject bullet in GameObject.FindGameObjectsWithTag("Bullet"))
@@ -107,6 +107,10 @@ public class WaveSpawner : MonoBehaviour
             Destroy(bullet);
         }
         NewUpgradeUi.SetActive(false);
+        foreach(Transform ui in NewUpgradeUi.transform)
+        {
+            Destroy(ui.gameObject);
+        }
         choosingUpgrade = false;
         Time.timeScale = 1;
         //canSpawnNextWave = true;
