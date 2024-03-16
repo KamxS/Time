@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1340880238968020341}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.008570094, y: 0.0026322645, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2.5
   starSpeed: 0
   isSlowed: 0
 --- !u!114 &5404042709886623937
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2.5
   starSpeed: 0
   isSlowed: 0
 --- !u!1 &1935102157402616863
@@ -184,7 +184,7 @@ Transform:
   m_GameObject: {fileID: 1935102157402616863}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: 0}
+  m_LocalPosition: {x: -0.534, y: 0.021, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2.5
   starSpeed: 0
   isSlowed: 0
 --- !u!114 &771583947561024316
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2.5
   starSpeed: 0
   isSlowed: 0
 --- !u!1 &7890797455759768182
@@ -373,7 +373,7 @@ Transform:
   m_GameObject: {fileID: 9137268538275709048}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalPosition: {x: 0.479, y: 0.033, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -481,7 +481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2.5
   starSpeed: 0
   isSlowed: 0
 --- !u!114 &1632789225326050778
@@ -496,6 +496,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 2.5
   starSpeed: 0
   isSlowed: 0

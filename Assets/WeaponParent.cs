@@ -5,6 +5,7 @@ using UnityEngine;
 public class WeaponParent : MonoBehaviour
 {
     //public SpriteRenderer characterRenderer,weaponRenderer;
+  
 
     private void Update()
     {
@@ -34,6 +35,10 @@ public class WeaponParent : MonoBehaviour
         }
         */
 
+
     }
+
+
+
 
 }
