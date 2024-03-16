@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
   starSpeed: 0
   isSlowed: 0
 --- !u!1 &1935102157402616863
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
   starSpeed: 0
   isSlowed: 0
 --- !u!1 &7890797455759768182
@@ -448,6 +448,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
   starSpeed: 0
   isSlowed: 0
