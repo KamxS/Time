@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class WaveSpawner : MonoBehaviour
@@ -18,6 +19,7 @@ public class WaveSpawner : MonoBehaviour
     public bool canSpawnNextWave;
     public bool ChooseUpgradee;
     private int upgradeCounter = 0; // Licznik u¿yæ funkcji GenereateUpgrade()
+    public bool choosingUpgrade;
 
     int enemiesAtOnce = 3;
     int playerLevel = 1;
@@ -26,20 +28,28 @@ public class WaveSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (kills >= killsToNewLevel)
-        {
-            for (int i = 0; i <= 2; i++)
-            {
-                GenereateUpgrade();
-            }
-            NewUpgrade();
-            killsToNewLevel *= 2;
-            kills = 0;
-        }
+        if (choosingUpgrade) return;
 
         if (livingEnemies.Count <= enemiesAtOnce)
         {
             GenerateEnemies();
+        }
+
+        if (kills >= killsToNewLevel)
+        {
+            Time.timeScale = 0;
+            choosingUpgrade = true;
+            for (int i = 0; i <= 2; i++)
+            {
+                int randomnum = Random.Range(0, upgradelist.Length - 1);
+                GameObject upgradeElement = Instantiate(upgradelist[randomnum], NewUpgradeUi.transform);
+                upgradeElement.GetComponent<Button>().onClick.AddListener(ChooseUpgrade);
+            //upgradeCounter++; // Zwiêkszanie licznika po ka¿dym wywo³aniu funkcji
+                //GenereateUpgrade();
+            }
+            NewUpgrade();
+            killsToNewLevel *= 2;
+            kills = 0;
         }
 
         /*
@@ -77,7 +87,7 @@ public class WaveSpawner : MonoBehaviour
     void NewUpgrade()
     {
         NewUpgradeUi.SetActive(true);
-        canSpawnNextWave = false;
+        //canSpawnNextWave = false;
     }
 
     void GenereateUpgrade()
@@ -93,8 +103,11 @@ public class WaveSpawner : MonoBehaviour
 
     public void ChooseUpgrade()
     {
+        Debug.Log("XD");
         NewUpgradeUi.SetActive(false);
-        canSpawnNextWave = true;
+        choosingUpgrade = false;
+        Time.timeScale = 1;
+        //canSpawnNextWave = true;
     }
 
 }
