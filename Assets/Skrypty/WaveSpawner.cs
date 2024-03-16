@@ -97,6 +97,10 @@ public class WaveSpawner : MonoBehaviour
             case "Speed":
                 break;
         }
+        foreach(GameObject bullet in GameObject.FindGameObjectsWithTag("Bullet"))
+        {
+            Destroy(bullet);
+        }
         NewUpgradeUi.SetActive(false);
         choosingUpgrade = false;
         Time.timeScale = 1;

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8806707402086924732}
   m_Layer: 0
   m_Name: ShotGun Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
+  speed: 3
   starSpeed: 0
   isSlowed: 0
 --- !u!1 &1935102157402616863
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 4463073068225069049}
   m_Layer: 0
   m_Name: ShotGun Bullet (1)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
+  speed: 3
   starSpeed: 0
   isSlowed: 0
 --- !u!1 &7890797455759768182
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 2630779859454358161}
   m_Layer: 0
   m_Name: ShotGun Bullet (2)
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -448,6 +448,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430d7b1e83ac42644b1b91da5e90efb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
+  speed: 3
   starSpeed: 0
   isSlowed: 0
