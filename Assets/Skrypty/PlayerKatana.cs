@@ -37,6 +37,11 @@ public class PlayerKatana : MonoBehaviour
         }
         hits.ForEach(hit => hit.GetComponent<Enemy>().Damage());
     }
+    public void IncreaseKatana()
+    {
+        GetComponent<BoxCollider2D>().offset += new Vector2(0.1f, 0f);
+        GetComponent<BoxCollider2D>().size += new Vector2(0.2f,0f);
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag=="Enemy")
