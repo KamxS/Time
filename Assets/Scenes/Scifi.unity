@@ -6775,6 +6775,7 @@ GameObject:
   - component: {fileID: 1281202683}
   - component: {fileID: 1281202686}
   - component: {fileID: 1281202687}
+  - component: {fileID: 1281202688}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6912,6 +6913,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99a2a414d8939547b1375191f8c4ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1281202688
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281202682}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 95eefe36e0f375e41b0da7fd666bc4cd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1485177891
 GameObject:
   m_ObjectHideFlags: 0
@@ -8910,6 +8933,10 @@ PrefabInstance:
     - target: {fileID: 2077016772235505614, guid: 7a437596654062f46b7f17142c27873e, type: 3}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2680315879853829681, guid: 7a437596654062f46b7f17142c27873e, type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
