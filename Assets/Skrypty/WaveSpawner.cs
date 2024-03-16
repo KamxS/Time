@@ -57,6 +57,8 @@ public class WaveSpawner : MonoBehaviour
             NewUpgrade();
             killsToNewLevel *= 2;
             levelSlider.maxValue = killsToNewLevel;
+            playerLevel++;
+            levelText.text = playerLevel.ToString();
             enemiesAtOnce += 1;
             kills = 0;
         }
@@ -82,11 +84,19 @@ public class WaveSpawner : MonoBehaviour
     void NewUpgrade()
     {
         NewUpgradeUi.SetActive(true);
+        SoundManager2.Instance.PlaySFX("lvlup");
         //canSpawnNextWave = false;
     }
 
     public void ChooseUpgrade(string name)
     {
+        switch(name)
+        {
+            case "Slowx2":
+                break;
+            case "Speed":
+                break;
+        }
         NewUpgradeUi.SetActive(false);
         choosingUpgrade = false;
         Time.timeScale = 1;
