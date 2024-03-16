@@ -53,8 +53,7 @@ public class WaveSpawner : MonoBehaviour
             Time.timeScale = 0;
             for (int i = 0; i <= 2; i++)
             {
-                int randomnum = Random.Range(0, upgradelist.Length);
-                GameObject upgradeElement = Instantiate(upgradelist[randomnum], NewUpgradeUi.transform);
+                GameObject upgradeElement = Instantiate(upgradelist[i], NewUpgradeUi.transform);
                 upgradeElement.GetComponent<Button>().onClick.AddListener(() => ChooseUpgrade(upgradeElement.transform.Find("Panel").Find("name").GetComponent<Text>().text));
             }
             NewUpgrade();
