@@ -6,6 +6,7 @@ using System;
 
 public class Enemy : MonoBehaviour
 {
+    public ParticleSystem deathParticle;
     WaveSpawner manager;
     ComboSystem comboSystem;
     Transform player;
@@ -42,6 +43,9 @@ public class Enemy : MonoBehaviour
         SoundManager2.Instance.PlaySFX("kill");
         manager.kills += 1;
         comboSystem.Kill();
+        gameObject.GetComponent<shootenemy>().enabled = false;
+        gameObject.GetComponent<AIPath>().canMove = false;
+        Instantiate(deathParticle, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }

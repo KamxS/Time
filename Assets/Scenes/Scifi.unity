@@ -10525,10 +10525,12 @@ MonoBehaviour:
   NewUpgradeUi: {fileID: 867000437}
   upgradelist:
   - {fileID: 993964201488085005, guid: 2d4c575d8dae34b4f85673f3bfa1803b, type: 3}
+  - {fileID: 1895953361767544665, guid: 0e09605c4cb8a6c4a9ba04626a85bd4f, type: 3}
+  - {fileID: 1895953361767544665, guid: d6622b19c5402e14cb7128e941791d29, type: 3}
   canSpawnNextWave: 0
   choosingUpgrade: 0
   kills: 0
-  killsToNewLevel: 1
+  killsToNewLevel: 3
 --- !u!1 &1289219790599986407
 GameObject:
   m_ObjectHideFlags: 0
