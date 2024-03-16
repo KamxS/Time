@@ -2121,7 +2121,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53.5, y: -208.5}
+  m_AnchoredPosition: {x: 53.5, y: -192}
   m_SizeDelta: {x: 497, y: 87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &405106266
@@ -2157,7 +2157,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Right Mouse Button(Slow Motion On/Off)
+  m_Text: 'Right Mouse Button(Slow Motion On/Off).
+
+    Losing all of the time will
+    result in Death'
 --- !u!222 &405106267
 CanvasRenderer:
   m_ObjectHideFlags: 0
