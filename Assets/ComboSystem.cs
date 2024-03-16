@@ -18,7 +18,6 @@ public class ComboSystem : MonoBehaviour
     private void Update()
     {
         textCombo.text = comboMultiplier.ToString().Replace(",",".") + "x";
-        Debug.Log("CurTime: " + curTime);
         if (curTime > 0)
         {
             curTime -= Time.deltaTime;
@@ -34,6 +33,5 @@ public class ComboSystem : MonoBehaviour
         kills += 1;
         comboMultiplier += 0.1f;
         curTime = timeTillReset;
-        Debug.Log("Combo: " + comboMultiplier);
     }
 }

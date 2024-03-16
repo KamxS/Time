@@ -39,6 +39,7 @@ public class PlayerKatana : MonoBehaviour
             }
         }
         hits.ForEach(hit => hit.GetComponent<Enemy>().Damage());
+        RandomSake();
     }
     public void IncreaseKatana()
     {
@@ -52,7 +53,7 @@ public class PlayerKatana : MonoBehaviour
         if(collision.tag=="Enemy")
         {
             enemiesToAttack.Add(collision.gameObject);
-            RandomSake();
+            
         } 
     }
 
@@ -60,17 +61,23 @@ public class PlayerKatana : MonoBehaviour
     {
         int randomnumber = Random.Range(0, 3);
         {
+
+            Debug.Log("losowanie");
+
             if (randomnumber == 0)
             {
                 cameratoshake.GetComponent<Animator>().SetTrigger("shake1");
+                Debug.Log("1");
             }
             if (randomnumber == 1)
             {
                 cameratoshake.GetComponent<Animator>().SetTrigger("shake2");
+                Debug.Log("2");
             }
             if (randomnumber == 2)
             {
                 cameratoshake.GetComponent<Animator>().SetTrigger("shake3");
+                Debug.Log("3");
             }
         }
     }
