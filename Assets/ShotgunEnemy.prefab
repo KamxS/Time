@@ -49,6 +49,7 @@ GameObject:
   - component: {fileID: 3157992701462993873}
   - component: {fileID: 1165232716662085566}
   - component: {fileID: 6710572145203954025}
+  - component: {fileID: 3628875075081885604}
   m_Layer: 0
   m_Name: ShotgunEnemy
   m_TagString: Enemy
@@ -316,3 +317,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56ec6b9f7e7408d4caee737ec4004d8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &3628875075081885604
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633964130939200288}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 470b49c8a9dd53744a10b01f4895f835, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
